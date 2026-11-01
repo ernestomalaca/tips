@@ -186,19 +186,19 @@ let DATA;
 try{DATA=await fetch("tips.json",{cache:"no-cache"}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json();});}
 catch(e){document.body.insertAdjacentHTML("beforeend",'<p style="padding:24px;text-align:center">No se pudieron cargar los tips. Recarga la página.</p>');throw e;}
 const CUR=DATA.cursos.songwriting;
-const BASE=CUR.url;
-const C=CUR.tema;
-const TT=DATA.tips.map((t,i)=>({i,cat:t.cat,n:t.n,cls:t.clase,tip:t.tip,curso:(DATA.cursos[t.curso]||CUR).tema,clip:t.clip||null}));
+const TT=DATA.tips.map((t,i)=>{const c=DATA.cursos[t.curso]||CUR;return {i,cat:t.cat,n:t.n,cls:t.clase,tip:t.tip,curso:c.tema,corto:c.corto||c.tema,url:c.url,clip:t.clip||null};});
 // Solo se muestran los tips que ya tienen clip; los demás esperan su video.
 const T=TT.filter(t=>t.clip);
-const link=(t,m)=>`${BASE}?utm_source=tip_live&utm_medium=${m||"web"}&utm_content=clase${t.n}`;
+const link=(t,m)=>`${t.url}?utm_source=tip_live&utm_medium=${m||"web"}&utm_content=clase${t.n}`;
 const norm=s=>s.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
 const esc=s=>s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const $=id=>document.getElementById(id);
 let q="", view=null, sel=new Set(), onlyVid=false;
 try{const st=JSON.parse(localStorage.getItem("tips-filtros-v2")||"{}");(st.cats||[]).forEach(c=>sel.add(c));onlyVid=false;}catch(e){}
 const save=()=>{try{localStorage.setItem("tips-filtros-v2",JSON.stringify({cats:[...sel],vid:onlyVid}));}catch(e){}}; // view = null (filas) | "Con video" | categoría
-const cats=[...new Set(T.map(t=>t.cat))];
+// El orden de los temas viene de tips.json ("temas"); los que no estén ahí van al final.
+const ORD=DATA.temas||[];
+const cats=[...new Set(T.map(t=>t.cat))].sort((a,b)=>(ORD.indexOf(a)+1||99)-(ORD.indexOf(b)+1||99));
 [...sel].forEach(c=>{if(!cats.includes(c))sel.delete(c);});
 const withClip=T.filter(t=>t.clip);
 let hero=withClip.length?withClip[Math.floor(Math.random()*withClip.length)]:T[0];
@@ -209,7 +209,7 @@ function hl(s){
   o.push(esc(s.slice(i)));return o.join("");
 }
 function card(t){
-  if(t.clip)return `<article class="tcard v"><button class="poster" type="button" data-play="${t.i}" aria-label="Ver clip: ${esc(t.tip)}"><img src="clips/${t.clip.p}" alt="" loading="lazy"><span class="pl"><i></i></span><span class="dur">${t.clip.d}</span></button><div class="tb">${q?`<span class="chip" style="align-self:flex-start">${esc(t.cat)}</span>`:""}<p>${hl(t.tip)}</p><div class="foot"><span class="cls">Clase ${t.n}</span><a class="more" href="${link(t)}" target="_blank" rel="noopener">Quiero saber más →</a></div></div></article>`;
+  if(t.clip)return `<article class="tcard v"><button class="poster" type="button" data-play="${t.i}" aria-label="Ver clip: ${esc(t.tip)}"><img src="clips/${t.clip.p}" alt="" loading="lazy"><span class="pl"><i></i></span><span class="dur">${t.clip.d}</span></button><div class="tb">${q?`<span class="chip" style="align-self:flex-start">${esc(t.cat)}</span>`:""}<p>${hl(t.tip)}</p><div class="foot"><span class="cls">Clase ${t.n} · ${esc(t.corto)}</span><a class="more" href="${link(t)}" target="_blank" rel="noopener">Quiero saber más →</a></div></div></article>`;
   return `<article class="tcard"><div class="tb"><span class="chip" style="align-self:flex-start">${esc(t.cat)}</span><p>${hl(t.tip)}</p><div class="foot"><span class="cls">Clase ${t.n} · ${hl(t.cls)}</span><a class="more" href="${link(t)}" target="_blank" rel="noopener">Quiero saber más →</a></div></div></article>`;
 }
 const sortClipsFirst=a=>[...a].sort((x,y)=>(y.clip?1:0)-(x.clip?1:0));
@@ -225,7 +225,7 @@ function render(){
   const sh=$("shelves");
   $("hero").hidden=!!(q||view); $("filters").hidden=!!(q||view);
   if(q){
-    const n=norm(q), r=T.filter(t=>norm(t.tip+" "+t.cls+" "+t.cat).includes(n));
+    const n=norm(q), r=T.filter(t=>norm(t.tip+" "+t.cls+" "+t.cat+" "+t.curso).includes(n));
     sh.innerHTML=`<section class="shelf"><div class="shead"><h2>Resultados para «${esc(q)}»<small>${r.length}</small></h2></div>${r.length?`<div class="grid">${sortClipsFirst(r).map(card).join("")}</div>`:`<div class="empty">No hay tips con «${esc(q)}». Prueba con otra palabra: bajo, melodía, coro, kick…</div>`}</section>`;
   }else if(view){
     const r=T.filter(t=>t.cat===view);
@@ -248,14 +248,15 @@ function render(){
 }
 function showHero(){
   const t=hero;
-  $("hTip").textContent=t.tip;$("hCat").textContent=t.cat;$("hCls").textContent=`Clase ${t.n} · ${t.cls}`;$("hMore").href=link(t);
+  $("hTip").textContent=t.tip;$("hCat").textContent=t.cat;$("hCls").textContent=`Clase ${t.n} · ${t.cls} · ${t.curso}`;$("hMore").href=link(t);
   if(t.clip){$("hImg").src="clips/"+t.clip.p;$("hDur").textContent=t.clip.d;$("hPoster").hidden=false;$("hPlay").hidden=false;}
   else{$("hPoster").hidden=true;$("hPlay").hidden=true;}
 }
 let cur=null;
-function nextOf(t){const k=T.findIndex(x=>x.i===t.i);return T[(k+1)%T.length];}
+function nextOf(t){const r=T.filter(x=>x.i!==t.i),s=r.filter(x=>x.cat===t.cat);return (s.length?s:r)[Math.floor(Math.random()*(s.length||r.length))];}
 function drawNext(t){
-  const others=T.filter(x=>x.i!==t.i);
+  const rest=T.filter(x=>x.i!==t.i), same=rest.filter(x=>x.cat===t.cat);
+  const others=[...same,...rest.filter(x=>x.cat!==t.cat)].slice(0,12);
   $("nextBox").hidden=!others.length;
   $("nextRow").innerHTML=others.map(x=>`<button class="nitem" type="button" data-n="${x.i}"><img src="clips/${x.clip.p}" alt="" loading="lazy"><span>${esc(x.tip)}</span></button>`).join("");
 }
