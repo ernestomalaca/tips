@@ -4,7 +4,14 @@
   "songwriting": {
    "nombre": "Songwriting: Taller de composición musical",
    "tema": "Teoría y composición",
-   "url": "https://www.malacamusiclab.com/songwriting"
+   "url": "https://www.malacamusiclab.com/songwriting",
+   "corto": "Teoría y composición"
+  },
+  "producedesdecero": {
+   "nombre": "Ableton Live 12 desde cero",
+   "tema": "Live 12 desde cero",
+   "corto": "Live 12 desde cero",
+   "url": "https://www.malacamusiclab.com/producedesdecero"
   }
  },
  "tips": [
@@ -583,6 +590,1109 @@
     "p": "clase13-sustain.jpg",
     "d": "0:50"
    }
+  },
+  {
+   "cat": "Primeros pasos",
+   "n": 4,
+   "clase": "Cuál es la mejor versión de Ableton Live para ti. Introducción a las dos vistas en el programa",
+   "tip": "Arreglo es tu línea de tiempo; Sesión es para lanzar clips por separado. Presiona Tab para saltar de una vista a otra.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c04-vistas.mp4",
+    "p": "l12-c04-vistas.jpg",
+    "d": "0:40"
+   }
+  },
+  {
+   "cat": "Primeros pasos",
+   "n": 6,
+   "clase": "El browser y la mixer",
+   "tip": "Usa los filtros del navegador (one shot, lo-fi, analógico…) para acotar la búsqueda y arrastra el sonido directo a una pista.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c06-filtros.mp4",
+    "p": "l12-c06-filtros.jpg",
+    "d": "1:02"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 6,
+   "clase": "El browser y la mixer",
+   "tip": "Alt+Cmd+B muestra el navegador, Alt+Cmd+M la mezcladora, Alt+Cmd+3 la vista de clip y Alt+Cmd+4 los dispositivos.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c06-atajos.mp4",
+    "p": "l12-c06-atajos.jpg",
+    "d": "1:03"
+   }
+  },
+  {
+   "cat": "Primeros pasos",
+   "n": 7,
+   "clase": "Configuración de audio y controladores MIDI",
+   "tip": "Para grabar o tocar en vivo usa un buffer pequeño (64–128 samples); para mezclar con muchos efectos súbelo y la computadora respira.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c07-buffer.mp4",
+    "p": "l12-c07-buffer.jpg",
+    "d": "1:09"
+   }
+  },
+  {
+   "cat": "Sonido y efectos",
+   "n": 8,
+   "clase": "Utilizando y categorizando sonidos",
+   "tip": "Similaridad de sonidos (Live 12) te sugiere muestras parecidas por timbre, duración y tonalidad en toda tu librería.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c08-similaridad.mp4",
+    "p": "l12-c08-similaridad.jpg",
+    "d": "1:03"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 10,
+   "clase": "Pistas MIDI",
+   "tip": "Cmd+D (Ctrl+D) duplica un clip y lo pega justo después en la rejilla; con Alt y arrastrar haces una copia donde quieras.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c10-duplicar.mp4",
+    "p": "l12-c10-duplicar.jpg",
+    "d": "0:44"
+   }
+  },
+  {
+   "cat": "Primeros pasos",
+   "n": 12,
+   "clase": "Las duraciones musicales y cómo se utilizan en el programa",
+   "tip": "Si lanzaste clips en Sesión, el arreglo se queda en pausa. Pulsa «Volver al arreglo» para que vuelva a sonar.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c12-volver-arreglo.mp4",
+    "p": "l12-c12-volver-arreglo.jpg",
+    "d": "0:44"
+   }
+  },
+  {
+   "cat": "Beats y bajo",
+   "n": 13,
+   "clase": "Las notas musicales y cómo se usan en un drum rack",
+   "tip": "En el Drum Rack, Similaridad de sonidos cambia todos los sonidos o uno solo; bloquea con el candado los que ya te gustan.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c13-kit-similar.mp4",
+    "p": "l12-c13-kit-similar.jpg",
+    "d": "0:49"
+   }
+  },
+  {
+   "cat": "Beats y bajo",
+   "n": 14,
+   "clase": "Cómo aprender a escribir baterías de canciones que nos llaman la atención",
+   "tip": "Elige una canción que te guste, encuentra su tempo con Tap y recrea el patrón de batería en Live. Así han aprendido muchos músicos.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c14-transcribir.mp4",
+    "p": "l12-c14-transcribir.jpg",
+    "d": "1:03"
+   }
+  },
+  {
+   "cat": "Primeros pasos",
+   "n": 15,
+   "clase": "Cómo guardar y exportar nuestro proyecto de ableton live",
+   "tip": "Exporta un MP3 para que el artista lo oiga en el coche y un WAV cuando necesites la mejor calidad; guárdalos en una carpeta Render del proyecto.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c15-exportar.mp4",
+    "p": "l12-c15-exportar.jpg",
+    "d": "0:40"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 16,
+   "clase": "Capture",
+   "tip": "Capture registra lo que acabas de tocar aunque no estuvieras grabando, con todo y la intensidad. Toca libre y, cuando algo te guste, presiónalo.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c16-capture.mp4",
+    "p": "l12-c16-capture.jpg",
+    "d": "0:50"
+   }
+  },
+  {
+   "cat": "Grabación y audio",
+   "n": 17,
+   "clase": "Grabando",
+   "tip": "En la vista de Sesión presiona grabar en el clip y vuelve a presionarlo al terminar: la toma empieza a sonar en loop de inmediato.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c17-grabar-sesion.mp4",
+    "p": "l12-c17-grabar-sesion.jpg",
+    "d": "0:52"
+   }
+  },
+  {
+   "cat": "Beats y bajo",
+   "n": 18,
+   "clase": "Cuantización y velocities",
+   "tip": "Cuantizar al 100% deja todo cuadrado. Con Cmd+Shift+U pon la cantidad en 70%: se ajusta a la rejilla pero conserva lo humano.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c18-cuantizar.mp4",
+    "p": "l12-c18-cuantizar.jpg",
+    "d": "0:58"
+   }
+  },
+  {
+   "cat": "Beats y bajo",
+   "n": 19,
+   "clase": "Creando un beat sencillo de cuatro compases sobregrabación",
+   "tip": "Activa la sobregrabación y en cada vuelta del loop añade un elemento: primero el kick, luego el hi-hat, luego el snare.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c19-overdub.mp4",
+    "p": "l12-c19-overdub.jpg",
+    "d": "1:05"
+   }
+  },
+  {
+   "cat": "Primeros pasos",
+   "n": 20,
+   "clase": "Teclado Musical y repaso",
+   "tip": "Presiona M para tocar con el teclado de la computadora: Z y X cambian de octava, C y V la intensidad. No olvides armar la pista.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c20-teclado.mp4",
+    "p": "l12-c20-teclado.jpg",
+    "d": "1:03"
+   }
+  },
+  {
+   "cat": "Composición",
+   "n": 21,
+   "clase": "Hacer beats en diferentes estilos",
+   "tip": "Una frase suele ocupar 8 compases: una parte propone, como una pregunta, y la otra responde con algo conclusivo.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c21-frase.mp4",
+    "p": "l12-c21-frase.jpg",
+    "d": "0:49"
+   }
+  },
+  {
+   "cat": "Beats y bajo",
+   "n": 21,
+   "clase": "Hacer beats en diferentes estilos",
+   "tip": "El trap se reconoce por sus hi-hats con subdivisiones. Con Cmd+E divides una nota al tamaño de la rejilla sin cambiarla.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c21-trap.mp4",
+    "p": "l12-c21-trap.jpg",
+    "d": "0:55"
+   }
+  },
+  {
+   "cat": "Beats y bajo",
+   "n": 22,
+   "clase": "Avance 1 - Crear tus propios beats",
+   "tip": "Con Cmd+4 apagas la rejilla y puedes adelantar un poquito el snare: esa imperfección suena a música tocada en vivo.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c22-sazon.mp4",
+    "p": "l12-c22-sazon.jpg",
+    "d": "0:44"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 22,
+   "clase": "Avance 1 - Crear tus propios beats",
+   "tip": "La categoría Clips del navegador trae patrones MIDI con su instrumento listo (archivos .alc). Úsalos como punto de partida y modifícalos.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c22-clips.mp4",
+    "p": "l12-c22-clips.jpg",
+    "d": "1:00"
+   }
+  },
+  {
+   "cat": "Beats y bajo",
+   "n": 24,
+   "clase": "Drum rack y drum buss - una dupla ganadora",
+   "tip": "El kick tiene una nota. Drum Buss la detecta y puede afinar los graves a la tonalidad de tu canción.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c24-afinar-kick.mp4",
+    "p": "l12-c24-afinar-kick.jpg",
+    "d": "1:05"
+   }
+  },
+  {
+   "cat": "Beats y bajo",
+   "n": 24,
+   "clase": "Drum rack y drum buss - una dupla ganadora",
+   "tip": "Drum Buss satura tus baterías como un pedal de distorsión; con Transients en positivo el golpe pega más, en negativo se suaviza.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c24-drum-buss.mp4",
+    "p": "l12-c24-drum-buss.jpg",
+    "d": "1:02"
+   }
+  },
+  {
+   "cat": "Arreglo y mezcla",
+   "n": 25,
+   "clase": "Introduciendo el concepto de ecualización - mejorando nuestros sonidos",
+   "tip": "Al ecualizar, mueve la banda de forma exagerada para encontrar rápido el punto y luego afina. Pregúntate qué necesitas destacar o atenuar.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c25-exagera-eq.mp4",
+    "p": "l12-c25-exagera-eq.jpg",
+    "d": "0:53"
+   }
+  },
+  {
+   "cat": "Arreglo y mezcla",
+   "n": 25,
+   "clase": "Introduciendo el concepto de ecualización - mejorando nuestros sonidos",
+   "tip": "Punch cerca de 50 Hz, lo «encajonado» entre 300 y 500 Hz y el clic entre 3 y 10 kHz. Ecualiza solo si el sonido lo necesita.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c25-zonas-kick.mp4",
+    "p": "l12-c25-zonas-kick.jpg",
+    "d": "0:49"
+   }
+  },
+  {
+   "cat": "Arreglo y mezcla",
+   "n": 26,
+   "clase": "Aprendiendo a mezclar elementos para presentar mejor nuestras ideas",
+   "tip": "Lo importante va al centro y con más volumen; el acompañamiento, un poco más atrás y hacia los lados.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c26-teatro.mp4",
+    "p": "l12-c26-teatro.jpg",
+    "d": "1:05"
+   }
+  },
+  {
+   "cat": "Beats y bajo",
+   "n": 27,
+   "clase": "Rompiendo con la rigidez del grid - layering",
+   "tip": "Atrasa o adelanta un poquito el clap respecto al kick: no suena raro, le da juego, como lo haría un intérprete.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c27-rejilla.mp4",
+    "p": "l12-c27-rejilla.jpg",
+    "d": "1:09"
+   }
+  },
+  {
+   "cat": "Beats y bajo",
+   "n": 27,
+   "clase": "Rompiendo con la rigidez del grid - layering",
+   "tip": "Pon un rim y un clap casi al mismo tiempo y formas un golpe más grande. Lo mismo vale para guitarras o voces dobladas.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c27-layering.mp4",
+    "p": "l12-c27-layering.jpg",
+    "d": "1:00"
+   }
+  },
+  {
+   "cat": "Armonía y melodía",
+   "n": 29,
+   "clase": "Teoría musical - antes de comenzar",
+   "tip": "Activa Scale Awareness y elige tónica y escala: el piano roll marca las notas que pertenecen y el botón Scale oculta las demás.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c29-scale.mp4",
+    "p": "l12-c29-scale.jpg",
+    "d": "1:04"
+   }
+  },
+  {
+   "cat": "Armonía y melodía",
+   "n": 31,
+   "clase": "Intervalos",
+   "tip": "Asocia cada intervalo con una melodía famosa: «Feliz cumpleaños» empieza con una segunda mayor. Así reconoces lo que imaginas.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c31-intervalos.mp4",
+    "p": "l12-c31-intervalos.jpg",
+    "d": "1:00"
+   }
+  },
+  {
+   "cat": "Armonía y melodía",
+   "n": 32,
+   "clase": "Acordes",
+   "tip": "Con Scale activado, apila notas saltando una: do, mi, sol. Hazlo en cada grado y tienes todos los acordes de la escala.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c32-acordes.mp4",
+    "p": "l12-c32-acordes.jpg",
+    "d": "1:06"
+   }
+  },
+  {
+   "cat": "Armonía y melodía",
+   "n": 33,
+   "clase": "Progresiones armónicas - cadencias",
+   "tip": "La tónica es reposo, la subdominante te aleja del centro y la dominante te regresa. I–IV–V–I es el gesto más clásico.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c33-funciones.mp4",
+    "p": "l12-c33-funciones.jpg",
+    "d": "1:09"
+   }
+  },
+  {
+   "cat": "Armonía y melodía",
+   "n": 34,
+   "clase": "Técnicas y herramientas para apoyar tu proceso creativo",
+   "tip": "Toma una cadencia clásica y cambia acordes principales por secundarios: I–IV–V–I se vuelve III–IV–V–VI.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c34-secundarios.mp4",
+    "p": "l12-c34-secundarios.jpg",
+    "d": "0:58"
+   }
+  },
+  {
+   "cat": "Armonía y melodía",
+   "n": 34,
+   "clase": "Técnicas y herramientas para apoyar tu proceso creativo",
+   "tip": "Las inversiones cambian qué nota queda en el bajo. Mi-sol-si, sol-si-mi y si-mi-sol son el mismo acorde con tres colores.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c34-inversiones.mp4",
+    "p": "l12-c34-inversiones.jpg",
+    "d": "1:01"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 34,
+   "clase": "Técnicas y herramientas para apoyar tu proceso creativo",
+   "tip": "Un buen prompt («progresiones de tríadas en Re mayor con inversiones») te da ideas para probar; tú decides cuál suena.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c34-chatgpt.mp4",
+    "p": "l12-c34-chatgpt.jpg",
+    "d": "0:58"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 35,
+   "clase": "Escribir tus propias progresiones armónicas",
+   "tip": "Genera números del 1 al 7 en random.org y escribe esos grados: el azar te saca de un callejón y luego tú decides qué se queda.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c35-azar.mp4",
+    "p": "l12-c35-azar.jpg",
+    "d": "1:05"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 35,
+   "clase": "Escribir tus propias progresiones armónicas",
+   "tip": "Empareja grados desde los extremos (1-7, 2-6, 3-5) y arma progresiones con esos saltos, como los compositores del siglo XX.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c35-espejo.mp4",
+    "p": "l12-c35-espejo.jpg",
+    "d": "1:05"
+   }
+  },
+  {
+   "cat": "Armonía y melodía",
+   "n": 36,
+   "clase": "Ritmo armónico",
+   "tip": "Eso es el ritmo armónico. Empieza con un acorde por compás y precipita el cambio al final para crear expectativa.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c36-ritmo-armonico.mp4",
+    "p": "l12-c36-ritmo-armonico.jpg",
+    "d": "1:06"
+   }
+  },
+  {
+   "cat": "Beats y bajo",
+   "n": 37,
+   "clase": "La importancia de una buena línea de bajo",
+   "tip": "Si el bajo hace lo mismo que el teclado, no aporta. Córtalo en un ritmo 3-3-2 y acorta las notas para que suene percutido.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c37-ritmo-bajo.mp4",
+    "p": "l12-c37-ritmo-bajo.jpg",
+    "d": "1:09"
+   }
+  },
+  {
+   "cat": "Beats y bajo",
+   "n": 37,
+   "clase": "La importancia de una buena línea de bajo",
+   "tip": "Sube algunas notas repetidas del bajo a la octava superior con Shift + flecha: mismo acorde, mucha más onda.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c37-octavas.mp4",
+    "p": "l12-c37-octavas.jpg",
+    "d": "0:45"
+   }
+  },
+  {
+   "cat": "Sonido y efectos",
+   "n": 38,
+   "clase": "Sonidos que necesitaremos - presets de bajo para comenzar",
+   "tip": "Después de filtrar el navegador (bajo, acústico…) guarda los resultados como una categoría propia y hasta ponle un ícono.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c38-coleccion.mp4",
+    "p": "l12-c38-coleccion.jpg",
+    "d": "0:46"
+   }
+  },
+  {
+   "cat": "Armonía y melodía",
+   "n": 39,
+   "clase": "Cómo se relacionan los elementos en un arreglo a nivel armónico (multi clip editing)",
+   "tip": "Con Shift selecciona varios clips y Live los muestra juntos: verás si el bajo y el teclado chocan de registro.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c39-multiclip.mp4",
+    "p": "l12-c39-multiclip.jpg",
+    "d": "1:06"
+   }
+  },
+  {
+   "cat": "Composición",
+   "n": 40,
+   "clase": "Qué es un motivo musical y cómo utilizarlo para crear música - mejorando las líneas de nuestros instrumentos",
+   "tip": "Un motivo puede ser solo un ritmo, como 3+3+2. Repetirlo en distintos instrumentos le da identidad a tu canción.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c40-motivo.mp4",
+    "p": "l12-c40-motivo.jpg",
+    "d": "1:10"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 40,
+   "clase": "Qué es un motivo musical y cómo utilizarlo para crear música - mejorando las líneas de nuestros instrumentos",
+   "tip": "El transformador Recombine de Live 12 permuta notas, duraciones o intensidades de tu selección para variar un motivo.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c40-recombine.mp4",
+    "p": "l12-c40-recombine.jpg",
+    "d": "1:03"
+   }
+  },
+  {
+   "cat": "Arreglo y mezcla",
+   "n": 41,
+   "clase": "Bajo y batería - un choque de frecuencias",
+   "tip": "Si el kick y el bajo tienen su energía en los mismos 50 Hz se enciman, como dos personas hablando al mismo tiempo.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c41-choque.mp4",
+    "p": "l12-c41-choque.jpg",
+    "d": "1:05"
+   }
+  },
+  {
+   "cat": "Arreglo y mezcla",
+   "n": 42,
+   "clase": "Cómo funciona un ecualizador paramétrico",
+   "tip": "El audífono de EQ Eight te deja escuchar solo la banda que mueves. Los gráficos ayudan, pero tus oídos no te engañan.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c42-oidos.mp4",
+    "p": "l12-c42-oidos.jpg",
+    "d": "1:07"
+   }
+  },
+  {
+   "cat": "Arreglo y mezcla",
+   "n": 43,
+   "clase": "La solución desde la ecualización",
+   "tip": "Ante el enmascaramiento, decide: en pop-rock el bajo puede llevar los graves y el kick un poco menos; en electrónica, al revés.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c43-graves.mp4",
+    "p": "l12-c43-graves.jpg",
+    "d": "0:50"
+   }
+  },
+  {
+   "cat": "Arreglo y mezcla",
+   "n": 44,
+   "clase": "La importancia de la compresión",
+   "tip": "El umbral es el techo; el ratio es el guardia de la fiesta que decide cuántos pasan. Con 4:1, de cada cuatro decibeles pasa uno.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c44-compresor.mp4",
+    "p": "l12-c44-compresor.jpg",
+    "d": "0:56"
+   }
+  },
+  {
+   "cat": "Beats y bajo",
+   "n": 45,
+   "clase": "Compresión en cadena",
+   "tip": "Pon un compresor en el bajo con sidechain desde el kick: cada vez que suena el kick, el bajo se hace a un lado.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c45-sidechain.mp4",
+    "p": "l12-c45-sidechain.jpg",
+    "d": "0:58"
+   }
+  },
+  {
+   "cat": "Sonido y efectos",
+   "n": 45,
+   "clase": "Compresión en cadena",
+   "tip": "Aplica el sidechain del kick a un pad de notas largas y obtienes ese bombeo rítmico típico de la electrónica.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c45-sidechain-pad.mp4",
+    "p": "l12-c45-sidechain-pad.jpg",
+    "d": "1:08"
+   }
+  },
+  {
+   "cat": "Beats y bajo",
+   "n": 46,
+   "clase": "AVANCE 4 - añadiendo nuestros basslines a nuestras baterías",
+   "tip": "Antes de ecualizar o comprimir, revisa dónde coinciden el kick y el bajo y quita esas notas: nunca van a chocar.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c46-no-encimar.mp4",
+    "p": "l12-c46-no-encimar.jpg",
+    "d": "0:53"
+   }
+  },
+  {
+   "cat": "Composición",
+   "n": 47,
+   "clase": "Cuántos instrumentos son suficientes - formaciones musicales estándares",
+   "tip": "Batería, bajo, contenido armónico y una melodía. Con esos cuatro elementos vistes la mayoría de los estilos.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c47-receta.mp4",
+    "p": "l12-c47-receta.jpg",
+    "d": "0:45"
+   }
+  },
+  {
+   "cat": "Armonía y melodía",
+   "n": 48,
+   "clase": "Añadiendo un instrumento armónico teclados yo pads",
+   "tip": "Con Scale activado, copia la línea del bajo, pégala encima y súbela dos peldaños; repite y ya tienes tríadas.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c48-terceras.mp4",
+    "p": "l12-c48-terceras.jpg",
+    "d": "0:41"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 48,
+   "clase": "Añadiendo un instrumento armónico teclados yo pads",
+   "tip": "Divide los acordes al tamaño de la rejilla con Cmd+E y apaga algunas notas con 0: el teclado gana ritmo.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c48-trocear.mp4",
+    "p": "l12-c48-trocear.jpg",
+    "d": "0:41"
+   }
+  },
+  {
+   "cat": "Sonido y efectos",
+   "n": 49,
+   "clase": "El arpegiador y o las maneras de tocar acordes",
+   "tip": "El arpegiador va antes del instrumento y toca las notas del acorde una por una; prueba los estilos y el Rate.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c49-arpegiador.mp4",
+    "p": "l12-c49-arpegiador.jpg",
+    "d": "1:04"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 49,
+   "clase": "El arpegiador y o las maneras de tocar acordes",
+   "tip": "El transformador Arpeggiate de Live 12 escribe el arpegio como notas MIDI: cambias Rate o Gate y ves el resultado.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c49-arpeggiate.mp4",
+    "p": "l12-c49-arpeggiate.jpg",
+    "d": "0:51"
+   }
+  },
+  {
+   "cat": "Arreglo y mezcla",
+   "n": 50,
+   "clase": "Diseñar el espacio de nuestra mezcla",
+   "tip": "Abre los acompañamientos hacia los lados con el paneo y deja el centro para los graves, el kick y la melodía que viene.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c50-paneo.mp4",
+    "p": "l12-c50-paneo.jpg",
+    "d": "1:04"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 51,
+   "clase": "La importancia de las partes de una canción  -  separación por stems",
+   "tip": "Desde Live 12.3: clic derecho en un audio > Separar stems. Voces, batería, bajo y otros quedan en pistas nuevas.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c51-stems.mp4",
+    "p": "l12-c51-stems.jpg",
+    "d": "1:08"
+   }
+  },
+  {
+   "cat": "Composición",
+   "n": 52,
+   "clase": "El contraste - cómo se organiza la música",
+   "tip": "Las secciones duran 4, 8 o 16 compases. Alterna ideas contrastantes (A, B) y repite con variaciones (A2, A3).",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c52-contraste.mp4",
+    "p": "l12-c52-contraste.jpg",
+    "d": "0:50"
+   }
+  },
+  {
+   "cat": "Composición",
+   "n": 52,
+   "clase": "El contraste - cómo se organiza la música",
+   "tip": "Pon la canción en Live y marca con localizadores cada cambio de sección. Luego usa esa estructura para la tuya.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c52-estructura.mp4",
+    "p": "l12-c52-estructura.jpg",
+    "d": "1:01"
+   }
+  },
+  {
+   "cat": "Composición",
+   "n": 53,
+   "clase": "Construyendo una canción breve con nuestras ideas",
+   "tip": "Selecciona tus clips, cópialos a la vista de Arreglo, empújalos a la derecha y ve trayéndolos uno a uno para armar la estructura.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c53-sesion-arreglo.mp4",
+    "p": "l12-c53-sesion-arreglo.jpg",
+    "d": "0:48"
+   }
+  },
+  {
+   "cat": "Composición",
+   "n": 54,
+   "clase": "Clímax en la música y en la melodía",
+   "tip": "Como en una obra de teatro, después de la mitad llega el momento de máxima tensión y luego el reposo.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c54-climax.mp4",
+    "p": "l12-c54-climax.jpg",
+    "d": "0:52"
+   }
+  },
+  {
+   "cat": "Composición",
+   "n": 54,
+   "clase": "Clímax en la música y en la melodía",
+   "tip": "Recapitular la idea del principio al final da sensación de cierre. Un corte directo puede ser el mejor remate.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c54-recapitular.mp4",
+    "p": "l12-c54-recapitular.jpg",
+    "d": "0:41"
+   }
+  },
+  {
+   "cat": "Grabación y audio",
+   "n": 58,
+   "clase": "Usando las opciones de grabación - Tomas punch in punch out",
+   "tip": "Graba sobre una región en loop: cada vuelta queda como una toma. Luego elige la mejor desde la pista de tomas.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c58-tomas.mp4",
+    "p": "l12-c58-tomas.jpg",
+    "d": "1:02"
+   }
+  },
+  {
+   "cat": "Grabación y audio",
+   "n": 58,
+   "clase": "Usando las opciones de grabación - Tomas punch in punch out",
+   "tip": "Con Cmd elige partes de diferentes tomas y une los cortes con un crossfade (Alt+Cmd+F).",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c58-comping.mp4",
+    "p": "l12-c58-comping.jpg",
+    "d": "1:06"
+   }
+  },
+  {
+   "cat": "Grabación y audio",
+   "n": 58,
+   "clase": "Usando las opciones de grabación - Tomas punch in punch out",
+   "tip": "Punch in y punch out graban únicamente entre dos puntos, sin tocar el resto de tu toma.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c58-punch.mp4",
+    "p": "l12-c58-punch.jpg",
+    "d": "1:02"
+   }
+  },
+  {
+   "cat": "Grabación y audio",
+   "n": 59,
+   "clase": "Uso creativo de pistas de tomas y vincular pistas (linked tracks)",
+   "tip": "Selecciona varias pistas y vincúlalas: si mueves, cortas o haces crossfade en una, cambia en todas. Ideal para stems o baterías multipista.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c59-vincular.mp4",
+    "p": "l12-c59-vincular.jpg",
+    "d": "1:01"
+   }
+  },
+  {
+   "cat": "Grabación y audio",
+   "n": 60,
+   "clase": "Cuantización y time stretching - warp",
+   "tip": "Con warp activo, arrastra el marcador de un golpe que quedó tarde y acomódalo sin volver a grabar.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c60-warp-marcadores.mp4",
+    "p": "l12-c60-warp-marcadores.jpg",
+    "d": "1:06"
+   }
+  },
+  {
+   "cat": "Grabación y audio",
+   "n": 61,
+   "clase": "Modos de warping y mejores usos",
+   "tip": "Beats para baterías, Tones para bajos y melodías, Texture para pads, Re-Pitch como tornamesa y Complex para canciones completas.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c61-modos-warp.mp4",
+    "p": "l12-c61-modos-warp.jpg",
+    "d": "0:59"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 62,
+   "clase": "Automatizaciones",
+   "tip": "Selecciona un parámetro, presiona A y dibuja puntos en la línea roja: el parámetro se moverá solo a lo largo del tiempo.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c62-automatizar.mp4",
+    "p": "l12-c62-automatizar.jpg",
+    "d": "1:06"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 63,
+   "clase": "Modos de editar las automatizaciones",
+   "tip": "Activa la grabación de automatización, dale Rec y mueve la perilla en tiempo real: queda el factor humano.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c63-grabar-auto.mp4",
+    "p": "l12-c63-grabar-auto.jpg",
+    "d": "1:03"
+   }
+  },
+  {
+   "cat": "Primeros pasos",
+   "n": 63,
+   "clase": "Modos de editar las automatizaciones",
+   "tip": "Si mueves a mano un parámetro automatizado, la automatización se pausa. Usa la flecha naranja «Reactivar automatización».",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c63-reactivar.mp4",
+    "p": "l12-c63-reactivar.jpg",
+    "d": "1:01"
+   }
+  },
+  {
+   "cat": "Beats y bajo",
+   "n": 64,
+   "clase": "Herramientas y opciones de edición MIDI",
+   "tip": "En Live 12 cada nota tiene Chance (probabilidad). Ponla en 50% y tus hi-hats variarán en cada vuelta.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c64-chance.mp4",
+    "p": "l12-c64-chance.jpg",
+    "d": "0:52"
+   }
+  },
+  {
+   "cat": "Primeros pasos",
+   "n": 65,
+   "clase": "Edición de audio",
+   "tip": "Congela o vuelca la pista en su sitio y libera CPU cuando tus efectos y sintes pesan demasiado.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c65-congelar.mp4",
+    "p": "l12-c65-congelar.jpg",
+    "d": "0:59"
+   }
+  },
+  {
+   "cat": "Composición",
+   "n": 67,
+   "clase": "Flujo de trabajo",
+   "tip": "Estilo, BPM, instrumentos que necesitas y el mood. Con eso claro, salir de un bloqueo es mucho más fácil.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c67-plan.mp4",
+    "p": "l12-c67-plan.jpg",
+    "d": "1:07"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 68,
+   "clase": "Trocear una pista MIDI",
+   "tip": "Clic derecho en un audio > Trocear en nueva pista MIDI: cada fragmento queda en una nota para reinventarlo.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c68-rebanadas.mp4",
+    "p": "l12-c68-rebanadas.jpg",
+    "d": "1:01"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 68,
+   "clase": "Trocear una pista MIDI",
+   "tip": "Live convierte la armonía, la melodía o las baterías de un audio a MIDI. Funciona mejor si el sonido está aislado.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c68-audio-midi.mp4",
+    "p": "l12-c68-audio-midi.jpg",
+    "d": "1:07"
+   }
+  },
+  {
+   "cat": "Sonido y efectos",
+   "n": 69,
+   "clase": "Racks - cómo funcionan",
+   "tip": "Agrupa un efecto, mapea el parámetro a un Macro y limita su rango: una sola perilla que hace justo lo que quieres.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c69-rack.mp4",
+    "p": "l12-c69-rack.jpg",
+    "d": "0:55"
+   }
+  },
+  {
+   "cat": "Sonido y efectos",
+   "n": 69,
+   "clase": "Racks - cómo funcionan",
+   "tip": "Las variaciones de Macro guardan «fotos» de las perillas de un rack. Ajusta, presiona New y vuelve a ese sonido cuando quieras.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c69-variaciones.mp4",
+    "p": "l12-c69-variaciones.jpg",
+    "d": "1:01"
+   }
+  },
+  {
+   "cat": "Arreglo y mezcla",
+   "n": 70,
+   "clase": "Efectos en live que deberías aprender a utilizar parte 1",
+   "tip": "Manda una copia de cada pista al envío de reverb: la mezcla suena homogénea y usas menos CPU.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c70-envios.mp4",
+    "p": "l12-c70-envios.jpg",
+    "d": "1:06"
+   }
+  },
+  {
+   "cat": "Sonido y efectos",
+   "n": 70,
+   "clase": "Efectos en live que deberías aprender a utilizar parte 1",
+   "tip": "El modo DJ de Auto Filter: hacia la izquierda pasa bajos, hacia la derecha pasa altos. Súmale Drive para más carácter.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c70-auto-filter.mp4",
+    "p": "l12-c70-auto-filter.jpg",
+    "d": "0:57"
+   }
+  },
+  {
+   "cat": "Sonido y efectos",
+   "n": 70,
+   "clase": "Efectos en live que deberías aprender a utilizar parte 1",
+   "tip": "Saturator en modo Bass Shaper añade armónicos y calor para que el bajo llene su espacio.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c70-saturator.mp4",
+    "p": "l12-c70-saturator.jpg",
+    "d": "0:50"
+   }
+  },
+  {
+   "cat": "Sonido y efectos",
+   "n": 71,
+   "clase": "Efectos en live 12 que deberías aprender a utilizar (2da parte)",
+   "tip": "Hybrid Reverb combina convolución y algoritmo; prueba Shimmer, ecualiza la reverb y súmale un poco de Vintage.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c71-hybrid.mp4",
+    "p": "l12-c71-hybrid.jpg",
+    "d": "0:50"
+   }
+  },
+  {
+   "cat": "Sonido y efectos",
+   "n": 71,
+   "clase": "Efectos en live 12 que deberías aprender a utilizar (2da parte)",
+   "tip": "Auto Shift corrige la voz a la escala del proyecto; muévelo un par de grados con Dry/Wet al 50% y tienes una armonía.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c71-auto-shift.mp4",
+    "p": "l12-c71-auto-shift.jpg",
+    "d": "1:09"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 71,
+   "clase": "Efectos en live 12 que deberías aprender a utilizar (2da parte)",
+   "tip": "Manda MIDI a Auto Shift en modo Poly y la voz seguirá los acordes que toques en el teclado.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c71-auto-shift-poly.mp4",
+    "p": "l12-c71-auto-shift-poly.jpg",
+    "d": "0:57"
+   }
+  },
+  {
+   "cat": "Primeros pasos",
+   "n": 72,
+   "clase": "Midi key mapping y algunos fxs midi",
+   "tip": "Cmd+M, haz clic en el parámetro y mueve la perilla de tu controlador: queda asignada.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c72-midi-map.mp4",
+    "p": "l12-c72-midi-map.jpg",
+    "d": "0:56"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 72,
+   "clase": "Midi key mapping y algunos fxs midi",
+   "tip": "Con Cmd+K asignas teclas de la computadora para prender dispositivos o saltar entre dos valores.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c72-key-map.mp4",
+    "p": "l12-c72-key-map.jpg",
+    "d": "1:08"
+   }
+  },
+  {
+   "cat": "Sonido y efectos",
+   "n": 73,
+   "clase": "Introducción a los sintetizadores de ableton live y el diseño sonoro",
+   "tip": "Ataque, decaimiento, sostenimiento y release: el plectro, la cuerda que se apaga y lo que queda. Mueve la envolvente y cambia el instrumento.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c73-adsr.mp4",
+    "p": "l12-c73-adsr.jpg",
+    "d": "1:10"
+   }
+  },
+  {
+   "cat": "Arreglo y mezcla",
+   "n": 74,
+   "clase": "Exportar audio - formatos",
+   "tip": "Deja margen en la mezcla: picos entre –5 y –12 dB. Si está fuerte, selecciona todas las pistas y baja un fader: se mueven juntas.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c74-margen.mp4",
+    "p": "l12-c74-margen.jpg",
+    "d": "1:04"
+   }
+  },
+  {
+   "cat": "Arreglo y mezcla",
+   "n": 75,
+   "clase": "El mastering y las herramientas automatizadas",
+   "tip": "Las plataformas normalizan el volumen: si te pasas de –14 LUFS te bajan, si te quedas abajo te suben.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c75-lufs.mp4",
+    "p": "l12-c75-lufs.jpg",
+    "d": "1:08"
+   }
+  },
+  {
+   "cat": "Arreglo y mezcla",
+   "n": 76,
+   "clase": "Elaborando un mastering simple en ableton live",
+   "tip": "Entrego entre –16 y –11 LUFS y cuido los picos: un platillazo fuera de contexto define cuánto te penalizan.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c76-receta.mp4",
+    "p": "l12-c76-receta.jpg",
+    "d": "1:06"
+   }
+  },
+  {
+   "cat": "Arreglo y mezcla",
+   "n": 76,
+   "clase": "Elaborando un mastering simple en ableton live",
+   "tip": "En el Limiter de Live 12 usa Soft Clip y baja el umbral de Maximize con calma: más volumen y más musical.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c76-limiter.mp4",
+    "p": "l12-c76-limiter.jpg",
+    "d": "1:02"
+   }
+  },
+  {
+   "cat": "Composición",
+   "n": 76,
+   "clase": "Elaborando un mastering simple en ableton live",
+   "tip": "La composición es el contenido, la mezcla es el cuadro y el master es el marco. Pon atención al detalle desde el primer paso.",
+   "curso": "producedesdecero",
+   "clip": {
+    "v": "l12-c76-marco.mp4",
+    "p": "l12-c76-marco.jpg",
+    "d": "0:44"
+   }
   }
+ ],
+ "temas": [
+  "Primeros pasos",
+  "Beats y bajo",
+  "Armonía y melodía",
+  "Composición",
+  "Arreglo y mezcla",
+  "Sonido y efectos",
+  "Grabación y audio",
+  "Creatividad y atajos",
+  "Letras"
  ]
 }
