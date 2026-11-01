@@ -108,6 +108,16 @@ dialog::backdrop{background:rgba(10,11,10,.8)}
 .dlg video{width:100%;aspect-ratio:16/9;background:#000;display:block;max-width:100%}
 .dlgb{padding:18px 20px;display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;justify-content:space-between}
 .dlgb p{margin:0;flex:1 1 300px;font-weight:600}
+.next{border-top:1px solid var(--line);padding:14px 20px 20px;display:flex;flex-direction:column;gap:12px}
+.nhead{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.btn.sm{padding:7px 14px;font-size:13px}
+.nrow{display:flex;gap:12px;overflow-x:auto;scrollbar-width:none}
+.nrow::-webkit-scrollbar{display:none}
+.nitem{flex:0 0 190px;background:none;border:0;padding:0;color:var(--fg);font:inherit;text-align:left;cursor:pointer;display:flex;flex-direction:column;gap:6px}
+.nitem img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:10px;display:block;border:2px solid transparent}
+.nitem:hover img,.nitem:focus-visible img{border-color:var(--coral)}
+.nitem:focus-visible{outline:none}
+.nitem span{font-size:12px;color:var(--muted);line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .x{position:absolute;top:10px;right:10px;width:38px;height:38px;border-radius:50%;border:0;background:rgba(0,0,0,.65);color:#fff;font-size:22px;cursor:pointer;line-height:1;z-index:2}
 
 .foot{display:flex;gap:16px;align-items:center;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:22px;color:var(--muted);font-size:13px}
@@ -162,6 +172,10 @@ footer.foot a{color:var(--fg)}
     <div class="dlgb">
       <div><p id="dTip"></p><div class="meta" id="dCls" style="margin-top:4px"></div></div>
       <a class="btn" id="dMore" href="#" target="_blank" rel="noopener">Obtén tu acceso al curso</a>
+    </div>
+    <div class="next" id="nextBox">
+      <div class="nhead"><span class="eyebrow">Sigue viendo</span><button class="btn ghost sm" id="nextBtn" type="button">Siguiente clip →</button></div>
+      <div class="nrow" id="nextRow"></div>
     </div>
   </div>
 </dialog>
@@ -288,9 +302,18 @@ function showHero(){
   if(t.clip){$("hImg").src="clips/"+t.clip.p;$("hDur").textContent=t.clip.d;$("hPoster").hidden=false;$("hPlay").hidden=false;}
   else{$("hPoster").hidden=true;$("hPlay").hidden=true;}
 }
+let cur=null;
+function nextOf(t){const k=T.findIndex(x=>x.i===t.i);return T[(k+1)%T.length];}
+function drawNext(t){
+  const others=T.filter(x=>x.i!==t.i);
+  $("nextBox").hidden=!others.length;
+  $("nextRow").innerHTML=others.map(x=>`<button class="nitem" type="button" data-n="${x.i}"><img src="clips/${x.clip.p}" alt="" loading="lazy"><span>${esc(x.tip)}</span></button>`).join("");
+}
 function openClip(t){
+  cur=t; drawNext(t);
   $("vid").poster="clips/"+t.clip.p;$("vid").src="clips/"+t.clip.v;$("dTip").textContent=t.tip;$("dCls").textContent=`Clase ${t.n} · ${t.cls} · ${t.curso}`;$("dMore").href=link(t,"clip");
-  if($("dlg").showModal)$("dlg").showModal();else $("dlg").setAttribute("open","");
+  if(!$("dlg").open){if($("dlg").showModal)$("dlg").showModal();else $("dlg").setAttribute("open","");}
+  $("dlg").scrollTop=0;
   $("vid").play().catch(()=>{});
 }
 function closeClip(){$("vid").pause();$("vid").removeAttribute("src");$("vid").load();if($("dlg").close)$("dlg").close();else $("dlg").removeAttribute("open");}
@@ -298,10 +321,13 @@ function closeClip(){$("vid").pause();$("vid").removeAttribute("src");$("vid").l
 $("hPoster").addEventListener("click",()=>openClip(hero));
 $("hPlay").addEventListener("click",()=>openClip(hero));
 $("dlgX").addEventListener("click",closeClip);
+$("nextRow").addEventListener("click",e=>{const b=e.target.closest("[data-n]");if(b)openClip(TT[+b.dataset.n]);});
+$("nextBtn").addEventListener("click",()=>{if(cur)openClip(nextOf(cur));});
+$("vid").addEventListener("ended",()=>{$("nextBtn").focus();});
 $("dlg").addEventListener("close",()=>$("vid").pause());
 $("dlg").addEventListener("click",e=>{if(e.target===$("dlg"))closeClip();});
 $("shelves").addEventListener("click",e=>{
-  const p=e.target.closest("[data-play]");if(p){openClip(T[+p.dataset.play]);return;}
+  const p=e.target.closest("[data-play]");if(p){openClip(TT[+p.dataset.play]);return;}
   const v=e.target.closest("[data-view]");if(v){view=v.dataset.view;render();scrollTo({top:0,behavior:"smooth"});}
 });
 $("tags").addEventListener("click",e=>{const b=e.target.closest(".tag");if(!b)return;const t=b.dataset.t;
