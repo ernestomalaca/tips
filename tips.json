@@ -1,0 +1,588 @@
+{
+ "_nota": "Fuente única de los tips. La lee tips.malacamusiclab.com y la portada de malacamusiclab.com. Para sumar un tip: agrégalo aquí; si tiene video, pon sus archivos en /clips/ y llena 'clip'.",
+ "cursos": {
+  "songwriting": {
+   "nombre": "Songwriting: Taller de composición musical",
+   "tema": "Teoría y composición",
+   "url": "https://www.malacamusiclab.com/songwriting"
+  }
+ },
+ "tips": [
+  {
+   "cat": "Composición",
+   "n": 7,
+   "clase": "Analizando nuestra primera canción",
+   "tip": "El verso cuenta una historia y es para ti; el coro es para todos. Escribe el coro como algo que el público pueda cantar contigo.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase07-verso-coro.mp4",
+    "p": "clase07-verso-coro.jpg",
+    "d": "0:36"
+   }
+  },
+  {
+   "cat": "Composición",
+   "n": 8,
+   "clase": "Re-exposición",
+   "tip": "Repetir no es copiar y pegar. Vuelve al coro con la misma armonía, pero sube el acompañamiento de registro: se siente que la canción avanza.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase08-reexposicion.mp4",
+    "p": "clase08-reexposicion.jpg",
+    "d": "0:58"
+   }
+  },
+  {
+   "cat": "Composición",
+   "n": 9,
+   "clase": "Partes contrastantes",
+   "tip": "El contraste no es solo meter un instrumento nuevo. Cambia también la letra, la voz y hasta el largo: verso de 16 compases, coro de 8.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase09-contraste.mp4",
+    "p": "clase09-contraste.jpg",
+    "d": "0:58"
+   }
+  },
+  {
+   "cat": "Composición",
+   "n": 16,
+   "clase": "Las duraciones de una frase",
+   "tip": "Una frase de 8 compases es pregunta y respuesta: los primeros 4 proponen, los otros 4 contestan con una pequeña variación.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase16-frase.mp4",
+    "p": "clase16-frase.jpg",
+    "d": "0:50"
+   }
+  },
+  {
+   "cat": "Composición",
+   "n": 20,
+   "clase": "Revisando los contrastes",
+   "tip": "Ponle adjetivos a tus secciones en vez de A y B: «la parte lírica», «el bajo que bombea». Te dice qué necesita cada una.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase20-adjetivos.mp4",
+    "p": "clase20-adjetivos.jpg",
+    "d": "0:44"
+   }
+  },
+  {
+   "cat": "Composición",
+   "n": 19,
+   "clase": "Cómo generar contraste",
+   "tip": "Lo que viene después siempre tiene que ser tan o más interesante que lo anterior. Si no, tu canción se desinfla.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase19-lo-que-sigue.mp4",
+    "p": "clase19-lo-que-sigue.jpg",
+    "d": "0:47"
+   }
+  },
+  {
+   "cat": "Composición",
+   "n": 25,
+   "clase": "Tensión y reposo",
+   "tip": "Tensión y reposo: si llegas muy rápido al clímax, no entregas el mensaje; si te quedas mucho en el reposo, la canción nunca despega.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase25-tension-reposo.mp4",
+    "p": "clase25-tension-reposo.jpg",
+    "d": "1:02"
+   }
+  },
+  {
+   "cat": "Composición",
+   "n": 28,
+   "clase": "Cómo se conectan las partes",
+   "tip": "Un puente une dos partes muy distintas. Úsalo para meter sonidos que no aparecen en ningún otro lugar de la canción.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase28-puente.mp4",
+    "p": "clase28-puente.jpg",
+    "d": "0:43"
+   }
+  },
+  {
+   "cat": "Composición",
+   "n": 33,
+   "clase": "Cómo crear ideas que te gusten",
+   "tip": "¿Te quedaste sin ideas para la forma? Toma la estructura de una canción que te guste: tú solo pones el contenido.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase33-estructura.mp4",
+    "p": "clase33-estructura.jpg",
+    "d": "0:47"
+   }
+  },
+  {
+   "cat": "Armonía y melodía",
+   "n": 14,
+   "clase": "Ideas para progresiones",
+   "tip": "Una progresión sencilla se vuelve interesante con un ostinato: una célula rítmica que se repite con pequeñas variaciones.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase14-ostinato.mp4",
+    "p": "clase14-ostinato.jpg",
+    "d": "0:55"
+   }
+  },
+  {
+   "cat": "Armonía y melodía",
+   "n": 40,
+   "clase": "Cómo creamos melodías",
+   "tip": "Los saltos en una melodía liberan energía, pero hay que compensarlos con un reposo. Demasiados saltos la vuelven difícil de recordar.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase40-saltos.mp4",
+    "p": "clase40-saltos.jpg",
+    "d": "0:55"
+   }
+  },
+  {
+   "cat": "Armonía y melodía",
+   "n": 41,
+   "clase": "El motivo musical",
+   "tip": "Un motivo de tres o cuatro notas, repetido en distintos grados, le da coherencia a toda tu melodía. Así funcionan los leitmotivs del cine.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase41-motivo.mp4",
+    "p": "clase41-motivo.jpg",
+    "d": "0:55"
+   }
+  },
+  {
+   "cat": "Armonía y melodía",
+   "n": 42,
+   "clase": "El contexto armónico",
+   "tip": "Quedarte siempre dentro de la escala puede sonar obvio. Una nota fuera de lugar, bien puesta, es un riesgo que vale la pena.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase42-disonancia.mp4",
+    "p": "clase42-disonancia.jpg",
+    "d": "0:59"
+   }
+  },
+  {
+   "cat": "Armonía y melodía",
+   "n": 43,
+   "clase": "El clímax de la melodía",
+   "tip": "El clímax de una frase suele caer entre el 60 y el 80 % de su duración. Lo mismo pasa con la canción completa.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase43-climax.mp4",
+    "p": "clase43-climax.jpg",
+    "d": "0:57"
+   }
+  },
+  {
+   "cat": "Armonía y melodía",
+   "n": 44,
+   "clase": "Técnicas para crear melodías",
+   "tip": "Empieza la melodía con un arpegio del acorde para sentar la tonalidad, y luego suelta notas fuera del acorde para que tenga vida propia.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase44-arpegio.mp4",
+    "p": "clase44-arpegio.jpg",
+    "d": "0:41"
+   }
+  },
+  {
+   "cat": "Armonía y melodía",
+   "n": 44,
+   "clase": "Técnicas para crear melodías",
+   "tip": "¿Un instrumento choca con tu melodía? Cambia la nota del acompañamiento, no la de la melodía: ella manda.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase44-melodia-manda.mp4",
+    "p": "clase44-melodia-manda.jpg",
+    "d": "0:55"
+   }
+  },
+  {
+   "cat": "Armonía y melodía",
+   "n": 45,
+   "clase": "AVANCE: Creando melodías",
+   "tip": "Improvisa sobre tu base, graba y luego usa clic derecho → Convertir melodía en nueva pista MIDI. Tu idea queda lista para editar.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase45-audio-a-midi.mp4",
+    "p": "clase45-audio-a-midi.jpg",
+    "d": "1:01"
+   }
+  },
+  {
+   "cat": "Armonía y melodía",
+   "n": 31,
+   "clase": "AVANCE: Analiza tu música favorita",
+   "tip": "Un puente que cambia de Sol mayor a Sol menor por un momento genera un color inesperado. Se llama intercambio modal.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase31-intercambio-modal.mp4",
+    "p": "clase31-intercambio-modal.jpg",
+    "d": "0:32"
+   }
+  },
+  {
+   "cat": "Beats y bajo",
+   "n": 37,
+   "clase": "Desarrollo con variaciones",
+   "tip": "Piensa tu loop de batería como una frase: que tenga un remate al final antes de volver a empezar.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase37-remate.mp4",
+    "p": "clase37-remate.jpg",
+    "d": "0:47"
+   }
+  },
+  {
+   "cat": "Beats y bajo",
+   "n": 37,
+   "clase": "Desarrollo con variaciones",
+   "tip": "Agrega ghost notes en la caja con velocity baja. Le dan vida a un beat sin llenarlo de golpes.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase37-ghost-notes.mp4",
+    "p": "clase37-ghost-notes.jpg",
+    "d": "1:06"
+   }
+  },
+  {
+   "cat": "Beats y bajo",
+   "n": 37,
+   "clase": "Desarrollo con variaciones",
+   "tip": "Programa tu batería como si la tocara alguien real: un baterista solo tiene dos brazos y dos pies.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase37-dos-brazos.mp4",
+    "p": "clase37-dos-brazos.jpg",
+    "d": "0:54"
+   }
+  },
+  {
+   "cat": "Beats y bajo",
+   "n": 23,
+   "clase": "Cómo añadir un bajo",
+   "tip": "Para un bajo: primero toca la fundamental de cada acorde, luego dale un motivo rítmico y al final suma la quinta y la octava.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase23-primer-bajo.mp4",
+    "p": "clase23-primer-bajo.jpg",
+    "d": "0:58"
+   }
+  },
+  {
+   "cat": "Beats y bajo",
+   "n": 22,
+   "clase": "Líneas de bajo características",
+   "tip": "Técnica de dos bajos: uno para el sub y otro para los medios graves. Así suena profundo en audífonos y en bocinas pequeñas.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase22-dos-bajos.mp4",
+    "p": "clase22-dos-bajos.jpg",
+    "d": "0:58"
+   }
+  },
+  {
+   "cat": "Beats y bajo",
+   "n": 24,
+   "clase": "AVANCE: Escribe un bajo",
+   "tip": "Que el kick y el bajo tomen turnos, como en un diálogo. Selecciona ambos clips con Shift para verlos juntos en el editor MIDI.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase24-kick-bajo.mp4",
+    "p": "clase24-kick-bajo.jpg",
+    "d": "0:57"
+   }
+  },
+  {
+   "cat": "Beats y bajo",
+   "n": 21,
+   "clase": "Taller de bajo",
+   "tip": "El bajo define la armonía: si tocas Sol debajo de un Do mayor, ya no es el mismo acorde.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase21-bajo-armonia.mp4",
+    "p": "clase21-bajo-armonia.jpg",
+    "d": "0:49"
+   }
+  },
+  {
+   "cat": "Beats y bajo",
+   "n": 21,
+   "clase": "Taller de bajo",
+   "tip": "En el Electric Bass de Live, la velocity cambia la técnica: notas muertas, cuerda abierta o slap. Juega con ella.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase21-velocity.mp4",
+    "p": "clase21-velocity.jpg",
+    "d": "0:54"
+   }
+  },
+  {
+   "cat": "Arreglo y mezcla",
+   "n": 47,
+   "clase": "La única regla",
+   "tip": "La única regla del arreglo: menos es más. Cada instrumento tiene que ser relevante, sea protagonista o soporte.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase47-menos-es-mas.mp4",
+    "p": "clase47-menos-es-mas.jpg",
+    "d": "0:50"
+   }
+  },
+  {
+   "cat": "Arreglo y mezcla",
+   "n": 47,
+   "clase": "La única regla",
+   "tip": "Prueba de parejas: escucha tus elementos de dos en dos. Si cada pareja suena interesante, nadie está copiando a nadie.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase47-parejas.mp4",
+    "p": "clase47-parejas.jpg",
+    "d": "0:58"
+   }
+  },
+  {
+   "cat": "Arreglo y mezcla",
+   "n": 47,
+   "clase": "La única regla",
+   "tip": "En la sección contrastante, cambia la paleta de sonidos. Dos sintes tocando las mismas notas crean un timbre más grande.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase47-paleta.mp4",
+    "p": "clase47-paleta.jpg",
+    "d": "1:01"
+   }
+  },
+  {
+   "cat": "Arreglo y mezcla",
+   "n": 52,
+   "clase": "AVANCE: Haz un arreglo",
+   "tip": "¿Una muestra de voz trae graves? Quítaselos con un EQ y deja ese espacio para tu bajo. La mezcla empieza en el arreglo.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase52-espacio-bajo.mp4",
+    "p": "clase52-espacio-bajo.jpg",
+    "d": "0:45"
+   }
+  },
+  {
+   "cat": "Arreglo y mezcla",
+   "n": 52,
+   "clase": "AVANCE: Haz un arreglo",
+   "tip": "Para cerrar una canción, re-expón los sonidos del inicio en el final. Se siente como un círculo que se completa.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase52-cierre.mp4",
+    "p": "clase52-cierre.jpg",
+    "d": "0:45"
+   }
+  },
+  {
+   "cat": "Arreglo y mezcla",
+   "n": 49,
+   "clase": "Taller de instrumentos orquestales",
+   "tip": "Dobla la melodía de los violines a la octava entre primeros y segundos: suena más grande sin escribir notas nuevas.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase49-octava.mp4",
+    "p": "clase49-octava.jpg",
+    "d": "1:01"
+   }
+  },
+  {
+   "cat": "Arreglo y mezcla",
+   "n": 50,
+   "clase": "Orquestación de una canción",
+   "tip": "En las secciones de Orchestral Strings, automatiza el Chain Selector para pasar de legato a pizzicato a lo largo de la pieza.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase50-articulaciones.mp4",
+    "p": "clase50-articulaciones.jpg",
+    "d": "0:50"
+   }
+  },
+  {
+   "cat": "Arreglo y mezcla",
+   "n": 51,
+   "clase": "Consideraciones de arreglo",
+   "tip": "Crear la idea y arreglarla son dos momentos distintos. Primero un piano rápido; los timbres finales cuando la idea ya tiene futuro.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase51-idea-arreglo.mp4",
+    "p": "clase51-idea-arreglo.jpg",
+    "d": "0:40"
+   }
+  },
+  {
+   "cat": "Letras",
+   "n": 54,
+   "clase": "Ritmización de textos",
+   "tip": "Haz coincidir las sílabas acentuadas de tu letra con los tiempos fuertes del compás: en 4/4, el 1 y el 3.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase54-acentos.mp4",
+    "p": "clase54-acentos.jpg",
+    "d": "0:46"
+   }
+  },
+  {
+   "cat": "Letras",
+   "n": 55,
+   "clase": "Sílabas, sinalefas y hiatos",
+   "tip": "Usa sinalefas: une la vocal final de una palabra con la siguiente en una sola nota («escalera‿arriba»). La línea fluye mejor.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase55-sinalefa.mp4",
+    "p": "clase55-sinalefa.jpg",
+    "d": "0:49"
+   }
+  },
+  {
+   "cat": "Letras",
+   "n": 56,
+   "clase": "Melismas y adornos",
+   "tip": "Un melisma, varias notas sobre una misma sílaba, sirve para destacar la palabra más importante de tu frase.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase56-melisma.mp4",
+    "p": "clase56-melisma.jpg",
+    "d": "1:04"
+   }
+  },
+  {
+   "cat": "Letras",
+   "n": 58,
+   "clase": "Sugerencias de uso del texto",
+   "tip": "La puntuación de tu letra te dice dónde respirar. En frases largas, deja espacio para que quien canta tome aire.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase58-respiracion.mp4",
+    "p": "clase58-respiracion.jpg",
+    "d": "0:47"
+   }
+  },
+  {
+   "cat": "Letras",
+   "n": 58,
+   "clase": "Sugerencias de uso del texto",
+   "tip": "Usa segundas voces como un marcatextos: solo en las frases que quieres subrayar, como el coro.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase58-segundas-voces.mp4",
+    "p": "clase58-segundas-voces.jpg",
+    "d": "1:00"
+   }
+  },
+  {
+   "cat": "Letras",
+   "n": 59,
+   "clase": "AVANCE: Del texto a la melodía",
+   "tip": "Aunque no seas cantante, graba una demo cantada. Le da a quien interpreta una idea clara de tu intención.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase59-demo.mp4",
+    "p": "clase59-demo.jpg",
+    "d": "1:00"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 33,
+   "clase": "Cómo crear ideas que te gusten",
+   "tip": "Con 20 minutos al día alcanza para dos ideas. Trabaja en bloques cortos con descansos, como la técnica Pomodoro.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase33-pomodoro.mp4",
+    "p": "clase33-pomodoro.jpg",
+    "d": "0:48"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 34,
+   "clase": "Quitando el freno a tu creatividad",
+   "tip": "Guarda en tus Colecciones los sonidos de la temporada y rótalos. Dejas de buscar sonidos y te enfocas en ideas.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase34-colecciones.mp4",
+    "p": "clase34-colecciones.jpg",
+    "d": "1:00"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 34,
+   "clase": "Quitando el freno a tu creatividad",
+   "tip": "Ordena tus instrumentos por uso en el navegador y abre el que nunca tocas. Un poco de caos destraba ideas.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase34-instrumento-nuevo.mp4",
+    "p": "clase34-instrumento-nuevo.jpg",
+    "d": "1:05"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 38,
+   "clase": "AVANCE: De la idea a la canción",
+   "tip": "Ponte un límite de tiempo para navegar presets. Si no aparece, regresa a tu sinte de confianza y sigue creando.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase38-presets.mp4",
+    "p": "clase38-presets.jpg",
+    "d": "0:49"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 15,
+   "clase": "La técnica del borrador",
+   "tip": "Comping creativo: graba varias tomas en loop sobre la misma frase y arma la toma perfecta con los mejores pedazos.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase15-comping.mp4",
+    "p": "clase15-comping.jpg",
+    "d": "1:05"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 60,
+   "clase": "Terminando tus composiciones",
+   "tip": "¿Callejón sin salida? Descansa y regresa con otra perspectiva. Si cinco ideas salen mal, la sexta puede ser la buena.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase60-sexta-idea.mp4",
+    "p": "clase60-sexta-idea.jpg",
+    "d": "0:57"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 37,
+   "clase": "Desarrollo con variaciones",
+   "tip": "Atajos del editor MIDI: Cmd+1 y Cmd+2 cambian la rejilla, Cmd+3 activa tresillos y 0 desactiva notas sin borrarlas.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase37-atajos.mp4",
+    "p": "clase37-atajos.jpg",
+    "d": "1:01"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 13,
+   "clase": "Taller de piano y teclado",
+   "tip": "¿No tienes pedal de sustain? Dibújalo: es el CC 64 en las envolventes del clip. Cámbialo cada vez que cambie el acorde.",
+   "curso": "songwriting",
+   "clip": {
+    "v": "clase13-sustain.mp4",
+    "p": "clase13-sustain.jpg",
+    "d": "0:50"
+   }
+  }
+ ]
+}

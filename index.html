@@ -180,109 +180,15 @@ footer.foot a{color:var(--fg)}
   </div>
 </dialog>
 
-<script>
-const BASE="https://www.malacamusiclab.com/songwriting";
-const C="Teoría y composición";
-// Clips: índice del tip -> archivos en /clips/ (video, portada y duración)
-const CLIPS={
- 0:{v:"clase07-verso-coro.mp4",p:"clase07-verso-coro.jpg",d:"0:36"},
- 1:{v:"clase08-reexposicion.mp4",p:"clase08-reexposicion.jpg",d:"0:58"},
- 2:{v:"clase09-contraste.mp4",p:"clase09-contraste.jpg",d:"0:58"},
- 3:{v:"clase16-frase.mp4",p:"clase16-frase.jpg",d:"0:50"},
- 4:{v:"clase20-adjetivos.mp4",p:"clase20-adjetivos.jpg",d:"0:44"},
- 5:{v:"clase19-lo-que-sigue.mp4",p:"clase19-lo-que-sigue.jpg",d:"0:47"},
- 6:{v:"clase25-tension-reposo.mp4",p:"clase25-tension-reposo.jpg",d:"1:02"},
- 7:{v:"clase28-puente.mp4",p:"clase28-puente.jpg",d:"0:43"},
- 8:{v:"clase33-estructura.mp4",p:"clase33-estructura.jpg",d:"0:47"},
- 9:{v:"clase14-ostinato.mp4",p:"clase14-ostinato.jpg",d:"0:55"},
- 10:{v:"clase40-saltos.mp4",p:"clase40-saltos.jpg",d:"0:55"},
- 11:{v:"clase41-motivo.mp4",p:"clase41-motivo.jpg",d:"0:55"},
- 12:{v:"clase42-disonancia.mp4",p:"clase42-disonancia.jpg",d:"0:59"},
- 13:{v:"clase43-climax.mp4",p:"clase43-climax.jpg",d:"0:57"},
- 14:{v:"clase44-arpegio.mp4",p:"clase44-arpegio.jpg",d:"0:41"},
- 15:{v:"clase44-melodia-manda.mp4",p:"clase44-melodia-manda.jpg",d:"0:55"},
- 16:{v:"clase45-audio-a-midi.mp4",p:"clase45-audio-a-midi.jpg",d:"1:01"},
- 17:{v:"clase31-intercambio-modal.mp4",p:"clase31-intercambio-modal.jpg",d:"0:32"},
- 18:{v:"clase37-remate.mp4",p:"clase37-remate.jpg",d:"0:47"},
- 19:{v:"clase37-ghost-notes.mp4",p:"clase37-ghost-notes.jpg",d:"1:06"},
- 20:{v:"clase37-dos-brazos.mp4",p:"clase37-dos-brazos.jpg",d:"0:54"},
- 21:{v:"clase23-primer-bajo.mp4",p:"clase23-primer-bajo.jpg",d:"0:58"},
- 22:{v:"clase22-dos-bajos.mp4",p:"clase22-dos-bajos.jpg",d:"0:58"},
- 23:{v:"clase24-kick-bajo.mp4",p:"clase24-kick-bajo.jpg",d:"0:57"},
- 24:{v:"clase21-bajo-armonia.mp4",p:"clase21-bajo-armonia.jpg",d:"0:49"},
- 25:{v:"clase21-velocity.mp4",p:"clase21-velocity.jpg",d:"0:54"},
- 26:{v:"clase47-menos-es-mas.mp4",p:"clase47-menos-es-mas.jpg",d:"0:50"},
- 27:{v:"clase47-parejas.mp4",p:"clase47-parejas.jpg",d:"0:58"},
- 28:{v:"clase47-paleta.mp4",p:"clase47-paleta.jpg",d:"1:01"},
- 29:{v:"clase52-espacio-bajo.mp4",p:"clase52-espacio-bajo.jpg",d:"0:45"},
- 30:{v:"clase52-cierre.mp4",p:"clase52-cierre.jpg",d:"0:45"},
- 31:{v:"clase49-octava.mp4",p:"clase49-octava.jpg",d:"1:01"},
- 32:{v:"clase50-articulaciones.mp4",p:"clase50-articulaciones.jpg",d:"0:50"},
- 33:{v:"clase51-idea-arreglo.mp4",p:"clase51-idea-arreglo.jpg",d:"0:40"},
- 34:{v:"clase54-acentos.mp4",p:"clase54-acentos.jpg",d:"0:46"},
- 35:{v:"clase55-sinalefa.mp4",p:"clase55-sinalefa.jpg",d:"0:49"},
- 36:{v:"clase56-melisma.mp4",p:"clase56-melisma.jpg",d:"1:04"},
- 37:{v:"clase58-respiracion.mp4",p:"clase58-respiracion.jpg",d:"0:47"},
- 38:{v:"clase58-segundas-voces.mp4",p:"clase58-segundas-voces.jpg",d:"1:00"},
- 39:{v:"clase59-demo.mp4",p:"clase59-demo.jpg",d:"1:00"},
- 40:{v:"clase33-pomodoro.mp4",p:"clase33-pomodoro.jpg",d:"0:48"},
- 41:{v:"clase34-colecciones.mp4",p:"clase34-colecciones.jpg",d:"1:00"},
- 42:{v:"clase34-instrumento-nuevo.mp4",p:"clase34-instrumento-nuevo.jpg",d:"1:05"},
- 43:{v:"clase38-presets.mp4",p:"clase38-presets.jpg",d:"0:49"},
- 44:{v:"clase15-comping.mp4",p:"clase15-comping.jpg",d:"1:05"},
- 45:{v:"clase60-sexta-idea.mp4",p:"clase60-sexta-idea.jpg",d:"0:57"},
- 46:{v:"clase37-atajos.mp4",p:"clase37-atajos.jpg",d:"1:01"},
- 47:{v:"clase13-sustain.mp4",p:"clase13-sustain.jpg",d:"0:50"}};
-const TT=([
-["Composición",7,"Analizando nuestra primera canción","El verso cuenta una historia y es para ti; el coro es para todos. Escribe el coro como algo que el público pueda cantar contigo."],
-["Composición",8,"Re-exposición","Repetir no es copiar y pegar. Vuelve al coro con la misma armonía, pero sube el acompañamiento de registro: se siente que la canción avanza."],
-["Composición",9,"Partes contrastantes","El contraste no es solo meter un instrumento nuevo. Cambia también la letra, la voz y hasta el largo: verso de 16 compases, coro de 8."],
-["Composición",16,"Las duraciones de una frase","Una frase de 8 compases es pregunta y respuesta: los primeros 4 proponen, los otros 4 contestan con una pequeña variación."],
-["Composición",20,"Revisando los contrastes","Ponle adjetivos a tus secciones en vez de A y B: «la parte lírica», «el bajo que bombea». Te dice qué necesita cada una."],
-["Composición",19,"Cómo generar contraste","Lo que viene después siempre tiene que ser tan o más interesante que lo anterior. Si no, tu canción se desinfla."],
-["Composición",25,"Tensión y reposo","Tensión y reposo: si llegas muy rápido al clímax, no entregas el mensaje; si te quedas mucho en el reposo, la canción nunca despega."],
-["Composición",28,"Cómo se conectan las partes","Un puente une dos partes muy distintas. Úsalo para meter sonidos que no aparecen en ningún otro lugar de la canción."],
-["Composición",33,"Cómo crear ideas que te gusten","¿Te quedaste sin ideas para la forma? Toma la estructura de una canción que te guste: tú solo pones el contenido."],
-["Armonía y melodía",14,"Ideas para progresiones","Una progresión sencilla se vuelve interesante con un ostinato: una célula rítmica que se repite con pequeñas variaciones."],
-["Armonía y melodía",40,"Cómo creamos melodías","Los saltos en una melodía liberan energía, pero hay que compensarlos con un reposo. Demasiados saltos la vuelven difícil de recordar."],
-["Armonía y melodía",41,"El motivo musical","Un motivo de tres o cuatro notas, repetido en distintos grados, le da coherencia a toda tu melodía. Así funcionan los leitmotivs del cine."],
-["Armonía y melodía",42,"El contexto armónico","Quedarte siempre dentro de la escala puede sonar obvio. Una nota fuera de lugar, bien puesta, es un riesgo que vale la pena."],
-["Armonía y melodía",43,"El clímax de la melodía","El clímax de una frase suele caer entre el 60 y el 80 % de su duración. Lo mismo pasa con la canción completa."],
-["Armonía y melodía",44,"Técnicas para crear melodías","Empieza la melodía con un arpegio del acorde para sentar la tonalidad, y luego suelta notas fuera del acorde para que tenga vida propia."],
-["Armonía y melodía",44,"Técnicas para crear melodías","¿Un instrumento choca con tu melodía? Cambia la nota del acompañamiento, no la de la melodía: ella manda."],
-["Armonía y melodía",45,"AVANCE: Creando melodías","Improvisa sobre tu base, graba y luego usa clic derecho → Convertir melodía en nueva pista MIDI. Tu idea queda lista para editar."],
-["Armonía y melodía",31,"AVANCE: Analiza tu música favorita","Un puente que cambia de Sol mayor a Sol menor por un momento genera un color inesperado. Se llama intercambio modal."],
-["Beats y bajo",37,"Desarrollo con variaciones","Piensa tu loop de batería como una frase: que tenga un remate al final antes de volver a empezar."],
-["Beats y bajo",37,"Desarrollo con variaciones","Agrega ghost notes en la caja con velocity baja. Le dan vida a un beat sin llenarlo de golpes."],
-["Beats y bajo",37,"Desarrollo con variaciones","Programa tu batería como si la tocara alguien real: un baterista solo tiene dos brazos y dos pies."],
-["Beats y bajo",23,"Cómo añadir un bajo","Para un bajo: primero toca la fundamental de cada acorde, luego dale un motivo rítmico y al final suma la quinta y la octava."],
-["Beats y bajo",22,"Líneas de bajo características","Técnica de dos bajos: uno para el sub y otro para los medios graves. Así suena profundo en audífonos y en bocinas pequeñas."],
-["Beats y bajo",24,"AVANCE: Escribe un bajo","Que el kick y el bajo tomen turnos, como en un diálogo. Selecciona ambos clips con Shift para verlos juntos en el editor MIDI."],
-["Beats y bajo",21,"Taller de bajo","El bajo define la armonía: si tocas Sol debajo de un Do mayor, ya no es el mismo acorde."],
-["Beats y bajo",21,"Taller de bajo","En el Electric Bass de Live, la velocity cambia la técnica: notas muertas, cuerda abierta o slap. Juega con ella."],
-["Arreglo y mezcla",47,"La única regla","La única regla del arreglo: menos es más. Cada instrumento tiene que ser relevante, sea protagonista o soporte."],
-["Arreglo y mezcla",47,"La única regla","Prueba de parejas: escucha tus elementos de dos en dos. Si cada pareja suena interesante, nadie está copiando a nadie."],
-["Arreglo y mezcla",47,"La única regla","En la sección contrastante, cambia la paleta de sonidos. Dos sintes tocando las mismas notas crean un timbre más grande."],
-["Arreglo y mezcla",52,"AVANCE: Haz un arreglo","¿Una muestra de voz trae graves? Quítaselos con un EQ y deja ese espacio para tu bajo. La mezcla empieza en el arreglo."],
-["Arreglo y mezcla",52,"AVANCE: Haz un arreglo","Para cerrar una canción, re-expón los sonidos del inicio en el final. Se siente como un círculo que se completa."],
-["Arreglo y mezcla",49,"Taller de instrumentos orquestales","Dobla la melodía de los violines a la octava entre primeros y segundos: suena más grande sin escribir notas nuevas."],
-["Arreglo y mezcla",50,"Orquestación de una canción","En las secciones de Orchestral Strings, automatiza el Chain Selector para pasar de legato a pizzicato a lo largo de la pieza."],
-["Arreglo y mezcla",51,"Consideraciones de arreglo","Crear la idea y arreglarla son dos momentos distintos. Primero un piano rápido; los timbres finales cuando la idea ya tiene futuro."],
-["Letras",54,"Ritmización de textos","Haz coincidir las sílabas acentuadas de tu letra con los tiempos fuertes del compás: en 4/4, el 1 y el 3."],
-["Letras",55,"Sílabas, sinalefas y hiatos","Usa sinalefas: une la vocal final de una palabra con la siguiente en una sola nota («escalera‿arriba»). La línea fluye mejor."],
-["Letras",56,"Melismas y adornos","Un melisma, varias notas sobre una misma sílaba, sirve para destacar la palabra más importante de tu frase."],
-["Letras",58,"Sugerencias de uso del texto","La puntuación de tu letra te dice dónde respirar. En frases largas, deja espacio para que quien canta tome aire."],
-["Letras",58,"Sugerencias de uso del texto","Usa segundas voces como un marcatextos: solo en las frases que quieres subrayar, como el coro."],
-["Letras",59,"AVANCE: Del texto a la melodía","Aunque no seas cantante, graba una demo cantada. Le da a quien interpreta una idea clara de tu intención."],
-["Creatividad y atajos",33,"Cómo crear ideas que te gusten","Con 20 minutos al día alcanza para dos ideas. Trabaja en bloques cortos con descansos, como la técnica Pomodoro."],
-["Creatividad y atajos",34,"Quitando el freno a tu creatividad","Guarda en tus Colecciones los sonidos de la temporada y rótalos. Dejas de buscar sonidos y te enfocas en ideas."],
-["Creatividad y atajos",34,"Quitando el freno a tu creatividad","Ordena tus instrumentos por uso en el navegador y abre el que nunca tocas. Un poco de caos destraba ideas."],
-["Creatividad y atajos",38,"AVANCE: De la idea a la canción","Ponte un límite de tiempo para navegar presets. Si no aparece, regresa a tu sinte de confianza y sigue creando."],
-["Creatividad y atajos",15,"La técnica del borrador","Comping creativo: graba varias tomas en loop sobre la misma frase y arma la toma perfecta con los mejores pedazos."],
-["Creatividad y atajos",60,"Terminando tus composiciones","¿Callejón sin salida? Descansa y regresa con otra perspectiva. Si cinco ideas salen mal, la sexta puede ser la buena."],
-["Creatividad y atajos",37,"Desarrollo con variaciones","Atajos del editor MIDI: Cmd+1 y Cmd+2 cambian la rejilla, Cmd+3 activa tresillos y 0 desactiva notas sin borrarlas."],
-["Creatividad y atajos",13,"Taller de piano y teclado","¿No tienes pedal de sustain? Dibújalo: es el CC 64 en las envolventes del clip. Cámbialo cada vez que cambie el acorde."]
-]).map(([cat,n,cls,tip],i)=>({i,cat,n,cls,tip,curso:C,clip:CLIPS[i]||null}));
+<script type="module">
+// Los tips viven en tips.json (también los lee la portada de malacamusiclab.com).
+let DATA;
+try{DATA=await fetch("tips.json",{cache:"no-cache"}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json();});}
+catch(e){document.body.insertAdjacentHTML("beforeend",'<p style="padding:24px;text-align:center">No se pudieron cargar los tips. Recarga la página.</p>');throw e;}
+const CUR=DATA.cursos.songwriting;
+const BASE=CUR.url;
+const C=CUR.tema;
+const TT=DATA.tips.map((t,i)=>({i,cat:t.cat,n:t.n,cls:t.clase,tip:t.tip,curso:(DATA.cursos[t.curso]||CUR).tema,clip:t.clip||null}));
 // Solo se muestran los tips que ya tienen clip; los demás esperan su video.
 const T=TT.filter(t=>t.clip);
 const link=(t,m)=>`${BASE}?utm_source=tip_live&utm_medium=${m||"web"}&utm_content=clase${t.n}`;
