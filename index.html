@@ -245,7 +245,7 @@ function hl(s){
   o.push(esc(s.slice(i)));return o.join("");
 }
 function card(t){
-  if(t.clip)return `<article class="tcard v"><button class="poster" type="button" data-play="${t.i}" aria-label="Ver clip: ${esc(t.tip)}"><img src="clips/${t.clip.p}" alt="" loading="lazy"><span class="pl"><i></i></span><span class="dur">${t.clip.d}</span></button><div class="tb"><p>${hl(t.tip)}</p><div class="foot"><span class="cls">Clase ${t.n}</span><a class="more" href="${link(t)}" target="_blank" rel="noopener">Quiero saber más →</a></div></div></article>`;
+  if(t.clip)return `<article class="tcard v"><button class="poster" type="button" data-play="${t.i}" aria-label="Ver clip: ${esc(t.tip)}"><img src="clips/${t.clip.p}" alt="" loading="lazy"><span class="pl"><i></i></span><span class="dur">${t.clip.d}</span></button><div class="tb">${q?`<span class="chip" style="align-self:flex-start">${esc(t.cat)}</span>`:""}<p>${hl(t.tip)}</p><div class="foot"><span class="cls">Clase ${t.n}</span><a class="more" href="${link(t)}" target="_blank" rel="noopener">Quiero saber más →</a></div></div></article>`;
   return `<article class="tcard"><div class="tb"><span class="chip" style="align-self:flex-start">${esc(t.cat)}</span><p>${hl(t.tip)}</p><div class="foot"><span class="cls">Clase ${t.n} · ${hl(t.cls)}</span><a class="more" href="${link(t)}" target="_blank" rel="noopener">Quiero saber más →</a></div></div></article>`;
 }
 const sortClipsFirst=a=>[...a].sort((x,y)=>(y.clip?1:0)-(x.clip?1:0));
