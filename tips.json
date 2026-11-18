@@ -2042,6 +2042,402 @@
     "p": "mv-c25-link.jpg",
     "d": "1:00"
    }
+  },
+  {
+   "cat": "Primeros pasos",
+   "n": 6,
+   "clase": "Sugerencias para utilizarlo correctamente",
+   "tip": "Conecta el Push a su eliminador original: así puedes subir al máximo la luz de la pantalla y de los pads en Setup, ideal si tocas con mucha luz.",
+   "curso": "pushdeceroaexperto",
+   "clip": {
+    "v": "ps-c06-brillo.mp4",
+    "p": "ps-c06-brillo.jpg",
+    "d": "0:50"
+   }
+  },
+  {
+   "cat": "Grabación y audio",
+   "n": 7,
+   "clase": "Configurando el audio de Live para una mejor experiencia",
+   "tip": "Para tocar o grabar en vivo, baja el buffer size lo más que puedas: 64 o 128 va bien; arriba de 256 empezarás a sentir la latencia.",
+   "curso": "pushdeceroaexperto",
+   "clip": {
+    "v": "ps-c07-buffer.mp4",
+    "p": "ps-c07-buffer.jpg",
+    "d": "1:14"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 8,
+   "clase": "Navegación general en Ableton Push",
+   "tip": "Mantén Delete y toca una perilla para regresar ese parámetro a su valor por defecto. Undo deshace, y Shift + Undo rehace.",
+   "curso": "pushdeceroaexperto",
+   "clip": {
+    "v": "ps-c08-delete-perilla.mp4",
+    "p": "ps-c08-delete-perilla.jpg",
+    "d": "0:57"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 9,
+   "clase": "La vista de sesión",
+   "tip": "Mantén Stop Clip y toca la cabecera de un canal para detener solo ese canal; Shift + Stop Clip detiene todos a la vez.",
+   "curso": "pushdeceroaexperto",
+   "clip": {
+    "v": "ps-c09-stop-clip.mp4",
+    "p": "ps-c09-stop-clip.jpg",
+    "d": "0:48"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 11,
+   "clase": "Capturar ideas rápido y la vista de Clip",
+   "tip": "Toca libremente y luego mantén Record y presiona New: el Push hace Capture y te crea un clip con lo que acabas de tocar.",
+   "curso": "pushdeceroaexperto",
+   "clip": {
+    "v": "ps-c11-capture.mp4",
+    "p": "ps-c11-capture.jpg",
+    "d": "0:46"
+   }
+  },
+  {
+   "cat": "Beats y bajo",
+   "n": 12,
+   "clase": "Tocar y Secuenciar baterías: Modos de Layout",
+   "tip": "En el loop selector mantén Layout para elegir velocities al momento, y mantén Select para escoger un sonido sin que suene.",
+   "curso": "pushdeceroaexperto",
+   "clip": {
+    "v": "ps-c12-loop-selector.mp4",
+    "p": "ps-c12-loop-selector.jpg",
+    "d": "0:48"
+   }
+  },
+  {
+   "cat": "Beats y bajo",
+   "n": 13,
+   "clase": "64 Pads layout",
+   "tip": "Con el layout de 64 pads usas toda la superficie del Push para un drum rack grande. Prueba el pack gratuito 64 Pad Lab para empezar.",
+   "curso": "pushdeceroaexperto",
+   "clip": {
+    "v": "ps-c13-64-pads.mp4",
+    "p": "ps-c13-64-pads.jpg",
+    "d": "0:53"
+   }
+  },
+  {
+   "cat": "Beats y bajo",
+   "n": 14,
+   "clase": "La rejilla & repeat",
+   "tip": "Activa Repeat y toca un pad: se repite según la rejilla. Mantén Quantize y en el primer encoder agrega swing para que no suene tan cuadrado.",
+   "curso": "pushdeceroaexperto",
+   "clip": {
+    "v": "ps-c14-repeat-swing.mp4",
+    "p": "ps-c14-repeat-swing.jpg",
+    "d": "1:18"
+   }
+  },
+  {
+   "cat": "Beats y bajo",
+   "n": 15,
+   "clase": "Personalizando nuestras secuencias",
+   "tip": "No cuantices al 100%: con 70% el ritmo queda en su lugar y conserva algo de humanidad. Mantén Quantize y toca un pad para cuantizar solo ese sonido.",
+   "curso": "pushdeceroaexperto",
+   "clip": {
+    "v": "ps-c15-cuantizar-70.mp4",
+    "p": "ps-c15-cuantizar-70.jpg",
+    "d": "0:49"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 17,
+   "clase": "Vista de Clip, edición & manipulación de notas MIDI",
+   "tip": "En la vista de clip del Push dale a cada nota un rango de velocity y una probabilidad: el patrón cambia un poco cada vez que suena.",
+   "curso": "pushdeceroaexperto",
+   "clip": {
+    "v": "ps-c17-probabilidad.mp4",
+    "p": "ps-c17-probabilidad.jpg",
+    "d": "0:54"
+   }
+  },
+  {
+   "cat": "Sonido y efectos",
+   "n": 18,
+   "clase": "Cargando baterías individuales desde cero",
+   "tip": "Un pad del drum rack puede tener cualquier cosa del browser: un sample, un Wavetable o un instrumento con efectos, no solo percusiones.",
+   "curso": "pushdeceroaexperto",
+   "clip": {
+    "v": "ps-c18-instrumento-pad.mp4",
+    "p": "ps-c18-instrumento-pad.jpg",
+    "d": "1:07"
+   }
+  },
+  {
+   "cat": "Arreglo y mezcla",
+   "n": 19,
+   "clase": "Mute & Solo",
+   "tip": "Usa Mute y Solo del Push para pre-escuchar ideas: apaga un elemento y si te gusta cómo suena, duplica el clip sin él.",
+   "curso": "pushdeceroaexperto",
+   "clip": {
+    "v": "ps-c19-mute-solo.mp4",
+    "p": "ps-c19-mute-solo.jpg",
+    "d": "0:49"
+   }
+  },
+  {
+   "cat": "Grabación y audio",
+   "n": 23,
+   "clase": "Count-in & Cuantización Global",
+   "tip": "Con la cuantización global en 1 compás, aunque detengas la grabación un poco tarde o temprano, Live la cierra justo al final del compás.",
+   "curso": "pushdeceroaexperto",
+   "clip": {
+    "v": "ps-c23-cuantizacion-global.mp4",
+    "p": "ps-c23-cuantizacion-global.jpg",
+    "d": "0:57"
+   }
+  },
+  {
+   "cat": "Grabación y audio",
+   "n": 24,
+   "clase": "Usando un pedal para grabar",
+   "tip": "Conecta un pedal al Push: un toque graba o reproduce, y dos toques rápidos saltan a una casilla nueva. Perfecto cuando tienes las manos ocupadas tocando.",
+   "curso": "pushdeceroaexperto",
+   "clip": {
+    "v": "ps-c24-pedal.mp4",
+    "p": "ps-c24-pedal.jpg",
+    "d": "1:11"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 27,
+   "clase": "Introducción a un set sencillo de Live looping",
+   "tip": "Arma una plantilla con los instrumentos y efectos que siempre usas: abres y empiezas a crear de inmediato. Para tocar en vivo, menos elementos te obligan a ser más creativo.",
+   "curso": "pushdeceroaexperto",
+   "clip": {
+    "v": "ps-c27-plantilla.mp4",
+    "p": "ps-c27-plantilla.jpg",
+    "d": "0:49"
+   }
+  },
+  {
+   "cat": "Armonía y melodía",
+   "n": 28,
+   "clase": "Tocando melodías y armonías (modo In Key)",
+   "tip": "Presiona Scale en el Push para elegir tónica y escala; en modo In Key todos los pads están dentro del tono, así puedes improvisar sin miedo.",
+   "curso": "pushdeceroaexperto",
+   "clip": {
+    "v": "ps-c28-in-key.mp4",
+    "p": "ps-c28-in-key.jpg",
+    "d": "0:58"
+   }
+  },
+  {
+   "cat": "Armonía y melodía",
+   "n": 29,
+   "clase": "Configuración de cómo lucen las notas en los pads",
+   "tip": "El layout Sequential acomoda las notas de izquierda a derecha y octava tras octava: tocar octavas se vuelve facilísimo.",
+   "curso": "pushdeceroaexperto",
+   "clip": {
+    "v": "ps-c29-sequential.mp4",
+    "p": "ps-c29-sequential.jpg",
+    "d": "1:02"
+   }
+  },
+  {
+   "cat": "Arreglo y mezcla",
+   "n": 34,
+   "clase": "Automatizaciones y uso de Push en la vista de arreglo",
+   "tip": "Shift + Play regresa la reproducción al inicio, y Shift + Rec graba en el arreglo todo lo que lanzas en sesión, con todo y automatizaciones.",
+   "curso": "pushdeceroaexperto",
+   "clip": {
+    "v": "ps-c34-shift-rec.mp4",
+    "p": "ps-c34-shift-rec.jpg",
+    "d": "0:45"
+   }
+  },
+  {
+   "cat": "Grabación y audio",
+   "n": 35,
+   "clase": "Sampling",
+   "tip": "En Mac, Loopback (de Rogue Amoeba) te deja mandar el audio de cualquier app, como el navegador o Spotify, directo a una pista de Live para samplearlo.",
+   "curso": "pushdeceroaexperto",
+   "clip": {
+    "v": "ps-c35-loopback.mp4",
+    "p": "ps-c35-loopback.jpg",
+    "d": "0:42"
+   }
+  },
+  {
+   "cat": "Grabación y audio",
+   "n": 35,
+   "clase": "Sampling",
+   "tip": "Busca samples en librerías gratuitas de audio: suelen tener grabaciones de buena calidad, como una kalimba en WAV, listas para arrastrar a Live.",
+   "curso": "pushdeceroaexperto",
+   "clip": {
+    "v": "ps-c35-librerias.mp4",
+    "p": "ps-c35-librerias.jpg",
+    "d": "0:52"
+   }
+  },
+  {
+   "cat": "Sonido y efectos",
+   "n": 36,
+   "clase": "Función Convert",
+   "tip": "Simpler tiene tres modos: Classic para tocarlo como instrumento, One Shot para golpes como un clap, y Slicing para rebanar por transientes (ajusta la sensibilidad).",
+   "curso": "pushdeceroaexperto",
+   "clip": {
+    "v": "ps-c36-simpler-modos.mp4",
+    "p": "ps-c36-simpler-modos.jpg",
+    "d": "0:54"
+   }
+  },
+  {
+   "cat": "Sonido y efectos",
+   "n": 38,
+   "clase": "Ordenando devices & trabajando con racks",
+   "tip": "Pon los efectos de tiempo, como el eco, al final de la cadena. En el Push mantén presionada la cabecera del dispositivo y gira el encoder para moverlo.",
+   "curso": "pushdeceroaexperto",
+   "clip": {
+    "v": "ps-c38-orden-efectos.mp4",
+    "p": "ps-c38-orden-efectos.jpg",
+    "d": "1:01"
+   }
+  },
+  {
+   "cat": "Sonido y efectos",
+   "n": 39,
+   "clase": "Diseño de controles Macro para Push (también Plugins externos)",
+   "tip": "Si un macro funciona al revés de lo que quieres, en el modo Map invierte sus valores mínimo y máximo y listo.",
+   "curso": "pushdeceroaexperto",
+   "clip": {
+    "v": "ps-c39-invertir-macro.mp4",
+    "p": "ps-c39-invertir-macro.jpg",
+    "d": "0:49"
+   }
+  },
+  {
+   "cat": "Armonía y melodía",
+   "n": 40,
+   "clase": "Convert y vista de Clip en detalle",
+   "tip": "Con Convert pasa un audio a MIDI: Harmony para acordes, Melody para algo monofónico como bajo o voz, y Drums para ritmos. Revisa y corrige el resultado.",
+   "curso": "pushdeceroaexperto",
+   "clip": {
+    "v": "ps-c40-convert-midi.mp4",
+    "p": "ps-c40-convert-midi.jpg",
+    "d": "0:48"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 41,
+   "clase": "Vista Mix & ruteos",
+   "tip": "Mantén presionado el botón de una sección (como Sends) para visitarla solo mientras lo sostienes: al soltarlo regresas a donde estabas.",
+   "curso": "pushdeceroaexperto",
+   "clip": {
+    "v": "ps-c41-momentaneo.mp4",
+    "p": "ps-c41-momentaneo.jpg",
+    "d": "0:52"
+   }
+  },
+  {
+   "cat": "Arreglo y mezcla",
+   "n": 42,
+   "clase": "¿Por qué tocar en vivo?",
+   "tip": "Para un set en vivo, pon un marcador con el nombre y BPM de cada canción en el arreglo y automatiza el tempo: así encuentras cada tema al instante.",
+   "curso": "pushdeceroaexperto",
+   "clip": {
+    "v": "ps-c42-marcadores.mp4",
+    "p": "ps-c42-marcadores.jpg",
+    "d": "0:53"
+   }
+  },
+  {
+   "cat": "Arreglo y mezcla",
+   "n": 43,
+   "clase": "Planteando una base sólida de acto en vivo",
+   "tip": "Para tocar en vivo agrupa por categorías: todas las baterías en un track, todos los bajos en otro, la melodía principal, el acompañamiento y un contraste. Imprime los efectos que siempre deben sonar.",
+   "curso": "pushdeceroaexperto",
+   "clip": {
+    "v": "ps-c43-categorias.mp4",
+    "p": "ps-c43-categorias.jpg",
+    "d": "0:49"
+   }
+  },
+  {
+   "cat": "Beats y bajo",
+   "n": 49,
+   "clase": "Iniciación al Finger Drumming en el Push",
+   "tip": "Para empezar con finger drumming di \"boots and cats\" mientras tocas: boots es el kick, and el hi-hat y cats el snare. Prueba también qué mano te acomoda mejor.",
+   "curso": "pushdeceroaexperto",
+   "clip": {
+    "v": "ps-c49-boots-cats.mp4",
+    "p": "ps-c49-boots-cats.jpg",
+    "d": "0:52"
+   }
+  },
+  {
+   "cat": "Beats y bajo",
+   "n": 50,
+   "clase": "Lo que necesitas saber para usar Drum racks de la mejor manera",
+   "tip": "Si quieres que todo suene fuerte, activa Accent en el Push; si prefieres dinámica, ajusta en el Simpler de cada pad cuánto responde el volumen a la velocity.",
+   "curso": "pushdeceroaexperto",
+   "clip": {
+    "v": "ps-c50-accent-velocity.mp4",
+    "p": "ps-c50-accent-velocity.jpg",
+    "d": "1:10"
+   }
+  },
+  {
+   "cat": "Beats y bajo",
+   "n": 52,
+   "clase": "Trabajando con bajos y su relación con el kick",
+   "tip": "Si tus notas de bajo en el drum rack chocan al sonar juntas, ponlas en el mismo grupo de Choke: solo suena una a la vez.",
+   "curso": "pushdeceroaexperto",
+   "clip": {
+    "v": "ps-c52-choke.mp4",
+    "p": "ps-c52-choke.jpg",
+    "d": "0:60"
+   }
+  },
+  {
+   "cat": "Armonía y melodía",
+   "n": 55,
+   "clase": "Consideraciones finales: tips de mezcla y técnica para tocar",
+   "tip": "Pon el MIDI effect Velocity en tus acordes y limita el rango (por ejemplo de 33 a 95): aunque le pegues duro al pad, suenan parejos pero con algo de dinámica.",
+   "curso": "pushdeceroaexperto",
+   "clip": {
+    "v": "ps-c55-velocity-fx.mp4",
+    "p": "ps-c55-velocity-fx.jpg",
+    "d": "1:05"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 56,
+   "clase": "Modo usuario",
+   "tip": "El botón User del Push abre una página libre para mapear lo que quieras: activa Pista y Remote en las preferencias MIDI del puerto User y asigna con Cmd + M.",
+   "curso": "pushdeceroaexperto",
+   "clip": {
+    "v": "ps-c56-modo-usuario.mp4",
+    "p": "ps-c56-modo-usuario.jpg",
+    "d": "0:57"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 60,
+   "clase": "ClyphX + Push",
+   "tip": "Con ClyphX puedes escribir acciones en el nombre de un clip para que, al lanzarlo, el Push cambie de escala, de tónica o de modo (In Key o cromático) solo.",
+   "curso": "pushdeceroaexperto",
+   "clip": {
+    "v": "ps-c60-clyphx-escala.mp4",
+    "p": "ps-c60-clyphx-escala.jpg",
+    "d": "0:52"
+   }
   }
  ],
  "temas": [
