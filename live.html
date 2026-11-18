@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Malaca Tips · Live</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#1C1E1B;--card:#262924;--line:rgba(255,255,255,.08);--coral:#E9604C;--coral2:#F07A67;--beige:#DABC99;--txt:#F2F2F0;--mut:#AAAEA8}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:100%;height:100%;overflow:hidden;background:var(--bg);color:var(--txt);font-family:Poppins,system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased;user-select:none;cursor:default}
+body{background:radial-gradient(120% 140% at 100% 0%,rgba(233,96,76,.10),transparent 55%),var(--bg)}
+.app{position:absolute;inset:0;padding:10px 12px 10px 12px;display:grid;grid-template-rows:20px 1fr 26px;gap:8px}
+/* cabecera */
+.top{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.brand{display:flex;align-items:center;gap:7px;font-size:9.5px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--coral);white-space:nowrap}
+.brand .m{width:18px;height:18px;border-radius:5px;display:block}
+.sel{position:relative}
+.sel select{appearance:none;-webkit-appearance:none;background:rgba(255,255,255,.06);border:1px solid var(--line);color:var(--txt);font:500 10px Poppins,system-ui,sans-serif;height:20px;padding:0 22px 0 9px;border-radius:999px;outline:none;cursor:pointer;max-width:150px}
+.sel select:hover{border-color:rgba(255,255,255,.2)}
+.sel:after{content:"";position:absolute;right:9px;top:7px;width:5px;height:5px;border-right:1.5px solid var(--mut);border-bottom:1.5px solid var(--mut);transform:rotate(45deg);pointer-events:none}
+.sel option{background:#262924;color:#fff}
+/* cuerpo */
+.body{position:relative;min-height:0}
+.view{position:absolute;inset:0;display:grid;grid-template-columns:1fr 124px;gap:12px;transition:opacity .25s,transform .25s}
+.view.out{opacity:0;transform:translateY(4px)}
+.tip{font-size:12px;line-height:1.42;font-weight:500;color:var(--txt);display:-webkit-box;-webkit-line-clamp:5;-webkit-box-orient:vertical;overflow:hidden;align-self:center}
+.thumb{position:relative;width:124px;height:70px;border-radius:9px;overflow:hidden;background:#111 center/cover no-repeat;border:1px solid var(--line);cursor:pointer;align-self:center;transition:transform .15s,border-color .15s}
+.thumb:hover{transform:scale(1.03);border-color:rgba(233,96,76,.6)}
+.thumb .pl{position:absolute;left:50%;top:50%;width:26px;height:26px;margin:-13px 0 0 -13px;border-radius:50%;background:var(--coral);box-shadow:0 4px 14px rgba(0,0,0,.45);display:grid;place-items:center}
+.thumb .pl:before{content:"";margin-left:2px;border-left:8px solid #fff;border-top:5px solid transparent;border-bottom:5px solid transparent}
+.thumb .d{position:absolute;right:5px;bottom:5px;font:600 8.5px Poppins,system-ui,sans-serif;background:rgba(0,0,0,.7);padding:1px 5px;border-radius:4px}
+/* estado vacío */
+.empty{grid-template-columns:1fr 124px}
+.empty h1{font-size:17px;line-height:1.15;font-weight:700}
+.empty h1 span{color:var(--coral)}
+.empty p{margin-top:5px;font-size:10.5px;line-height:1.45;color:var(--mut)}
+.stack{position:relative;align-self:center;width:124px;height:70px}
+.stack i{position:absolute;inset:0;border-radius:9px;background:#111 center/cover;border:1px solid var(--line)}
+.stack i:nth-child(1){transform:rotate(-7deg) translate(-6px,2px);opacity:.45}
+.stack i:nth-child(2){transform:rotate(5deg) translate(6px,-1px);opacity:.65}
+.stack i:nth-child(3){transform:none;box-shadow:0 8px 20px rgba(0,0,0,.45)}
+/* pie */
+.foot{display:flex;align-items:center;justify-content:space-between;gap:8px;border-top:1px solid var(--line);padding-top:6px}
+.meta{display:flex;align-items:center;gap:6px;min-width:0;font-size:9.5px;color:var(--mut);white-space:nowrap;overflow:hidden}
+.chip{flex:none;background:rgba(218,188,153,.12);color:var(--beige);font-weight:600;padding:2px 8px;border-radius:999px;font-size:9px}
+.meta .t{overflow:hidden;text-overflow:ellipsis}
+.acts{display:flex;align-items:center;gap:6px;flex:none}
+.lnk{font-size:9.5px;font-weight:600;color:var(--mut);cursor:pointer;padding:3px 4px;border-radius:6px}
+.lnk:hover{color:#fff}
+.btn{height:22px;padding:0 13px;border:0;border-radius:999px;background:var(--coral);color:#fff;font:600 10.5px Poppins,system-ui,sans-serif;cursor:pointer;display:flex;align-items:center;gap:6px;transition:background .15s,transform .1s}
+.btn:hover{background:var(--coral2)}.btn:active{transform:scale(.96)}
+.btn svg{width:11px;height:11px}
+.hide{display:none!important}
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="top">
+    <div class="brand"><img class="m" src="favicon.png" alt="">Tip de producción</div>
+    <div class="sel"><select id="tema" title="Tema"><option value="">Todos los temas</option></select></div>
+  </div>
+  <div class="body">
+    <div class="view empty" id="vEmpty">
+      <div style="align-self:center">
+        <h1>¿Te atoraste?<br><span>Pide un tip.</span></h1>
+        <p id="sub">Ideas y atajos sacados de clases reales de Malaca Music Lab.</p>
+      </div>
+      <div class="stack" id="stack"><i></i><i></i><i></i></div>
+    </div>
+    <div class="view out hide" id="vTip">
+      <div class="tip" id="tip"></div>
+      <div class="thumb" id="thumb" title="Ver el clip"><span class="pl"></span><span class="d" id="dur"></span></div>
+    </div>
+  </div>
+  <div class="foot">
+    <div class="meta" id="meta"><span class="t">Malaca Music Lab · tips.malacamusiclab.com</span></div>
+    <div class="acts">
+      <span class="lnk hide" id="curso" title="Ir al curso">Curso ↗</span>
+      <button class="btn" id="otro"><span id="lbl">Dame un tip</span><svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M2 6h7M6.5 3l3 3-3 3"/></svg></button>
+    </div>
+  </div>
+</div>
+<script>
+const BASE=new URL("./",location.href).href;
+const $=id=>document.getElementById(id);
+let D=null,T=[],cur=null,seen=[];
+const slug=t=>t.clip.v.replace(/\.mp4$/,"");
+function abrir(u){ if(window.max&&window.max.outlet){window.max.outlet("abrir",u);} else window.open(u,"_blank"); }
+async function load(){
+  try{const r=await fetch(BASE+"tips.json?t="+Date.now(),{cache:"no-store"});D=await r.json();try{localStorage.setItem("mt",JSON.stringify(D))}catch(e){}}
+  catch(e){try{D=JSON.parse(localStorage.getItem("mt"))}catch(_){}}
+  if(!D){$("sub").textContent="No pude cargar los tips. Revisa tu conexión.";return}
+  T=D.tips.filter(t=>t.clip&&t.clip.v);
+  const temas=D.temas||[...new Set(T.map(t=>t.cat))];
+  temas.filter(x=>T.some(t=>t.cat===x)).forEach(x=>{const o=document.createElement("option");o.value=x;o.textContent=x;$("tema").appendChild(o)});
+  const sh=[...T].sort(()=>Math.random()-.5).slice(0,3);
+  [...$("stack").children].forEach((i,k)=>sh[k]&&(i.style.backgroundImage=`url(${BASE}clips/${sh[k].clip.p})`));
+}
+function pick(){
+  const tema=$("tema").value;let L=tema?T.filter(t=>t.cat===tema):T;if(!L.length)L=T;
+  let P=L.filter(t=>!seen.includes(slug(t))&&t!==cur);if(!P.length){seen=[];P=L.filter(t=>t!==cur);if(!P.length)P=L}
+  const t=P[Math.floor(Math.random()*P.length)];seen.push(slug(t));return t;
+}
+function show(t){
+  cur=t;const c=(D.cursos||{})[t.curso]||{};
+  const v=$("vTip"),e=$("vEmpty");
+  v.classList.add("out");
+  setTimeout(()=>{
+    e.classList.add("hide");v.classList.remove("hide");
+    $("tip").textContent=t.tip;
+    $("thumb").style.backgroundImage=`url(${BASE}clips/${t.clip.p})`;
+    $("dur").textContent=t.clip.d||"";
+    $("meta").innerHTML=`<span class="chip">${t.cat}</span><span class="t">Clase ${t.n} · ${c.corto||c.tema||""}</span>`;
+    $("curso").classList.toggle("hide",!c.url);
+    $("lbl").textContent="Otro tip";
+    requestAnimationFrame(()=>v.classList.remove("out"));
+  },cur&&!v.classList.contains("hide")?180:0);
+}
+$("otro").onclick=()=>{if(T.length)show(pick())};
+$("thumb").onclick=()=>cur&&abrir(`${BASE}?tip=${encodeURIComponent(slug(cur))}&utm_source=maxforlive`);
+$("curso").onclick=()=>{if(!cur)return;const c=(D.cursos||{})[cur.curso]||{};c.url&&abrir(`${c.url}?utm_source=tip_live&utm_medium=maxforlive&utm_content=clase${cur.n}`)};
+$("tema").onchange=()=>{if(cur)show(pick())};
+load();
+</script>
+</body>
+</html>
