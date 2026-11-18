@@ -286,6 +286,7 @@ $("tags").addEventListener("click",e=>{const b=e.target.closest(".tag");if(!b)re
   save();renderTags();render();});
 let qt;$("q").addEventListener("input",e=>{clearTimeout(qt);qt=setTimeout(()=>{q=e.target.value.trim();render();},120);});
 showHero();renderTags();render();
+{const dl=new URLSearchParams(location.search).get("tip");if(dl){const t=T.find(x=>x.clip.v.replace(/\.mp4$/,"")===dl);if(t)openClip(t);}}
 </script>
 
 </body>
