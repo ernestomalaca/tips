@@ -12,6 +12,18 @@
    "tema": "Live 12 desde cero",
    "corto": "Live 12 desde cero",
    "url": "https://www.malacamusiclab.com/producedesdecero"
+  },
+  "dominamove": {
+   "nombre": "Domina Ableton Move",
+   "tema": "Domina Ableton Move",
+   "corto": "Move",
+   "url": "https://www.malacamusiclab.com/dominamove"
+  },
+  "pushdeceroaexperto": {
+   "nombre": "Ableton Push de cero a experto",
+   "tema": "Push de cero a experto",
+   "corto": "Push",
+   "url": "https://www.malacamusiclab.com/pushdeceroaexperto"
   }
  },
  "tips": [
@@ -1681,6 +1693,354 @@
     "v": "l12-c76-marco.mp4",
     "p": "l12-c76-marco.jpg",
     "d": "0:44"
+   }
+  },
+  {
+   "cat": "Primeros pasos",
+   "n": 1,
+   "clase": "Introducción",
+   "tip": "Mantén Shift y toca el segundo botón para ver la batería, el Wi-Fi y buscar actualizaciones: tener el Move al día te da las funciones nuevas.",
+   "curso": "dominamove",
+   "clip": {
+    "v": "mv-c01-actualizar.mp4",
+    "p": "mv-c01-actualizar.jpg",
+    "d": "1:02"
+   }
+  },
+  {
+   "cat": "Beats y bajo",
+   "n": 2,
+   "clase": "Navegación, sets y flujo de trabajo",
+   "tip": "Para cambiar un sonido de la batería, presiona la cabecera del pad, gira la rueda para escuchar opciones y presiónala para quedarte con el que te guste.",
+   "curso": "dominamove",
+   "clip": {
+    "v": "mv-c02-cambiar-sonido.mp4",
+    "p": "mv-c02-cambiar-sonido.jpg",
+    "d": "1:08"
+   }
+  },
+  {
+   "cat": "Sonido y efectos",
+   "n": 2,
+   "clase": "Navegación, sets y flujo de trabajo",
+   "tip": "Los 8 encoders del Move controlan los macros del instrumento: filtro, resonancia, ataque, release… Toca uno para ver qué parámetro mueve.",
+   "curso": "dominamove",
+   "clip": {
+    "v": "mv-c02-macros.mp4",
+    "p": "mv-c02-macros.jpg",
+    "d": "1:06"
+   }
+  },
+  {
+   "cat": "Beats y bajo",
+   "n": 3,
+   "clase": "Ritmo desde cero: cómo crear baterías",
+   "tip": "Toca libremente con los dedos y presiona Capture: el Move guarda lo que tocaste, con su tempo y sus velocities, aunque no estuvieras grabando.",
+   "curso": "dominamove",
+   "clip": {
+    "v": "mv-c03-capture.mp4",
+    "p": "mv-c03-capture.jpg",
+    "d": "1:18"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 3,
+   "clase": "Ritmo desde cero: cómo crear baterías",
+   "tip": "Captura varias pasadas de la misma idea y luego elige en el tamaño del loop solo los compases que mejor te quedaron.",
+   "curso": "dominamove",
+   "clip": {
+    "v": "mv-c03-mejor-toma.mp4",
+    "p": "mv-c03-mejor-toma.jpg",
+    "d": "0:46"
+   }
+  },
+  {
+   "cat": "Armonía y melodía",
+   "n": 4,
+   "clase": "Melodías, escalas y acordes",
+   "tip": "Con Shift y el botón de la nota musical cambia los pads de Chromatic a In Key: solo verás notas de la escala y no tocarás ninguna fuera de tono.",
+   "curso": "dominamove",
+   "clip": {
+    "v": "mv-c04-in-key.mp4",
+    "p": "mv-c04-in-key.jpg",
+    "d": "0:59"
+   }
+  },
+  {
+   "cat": "Beats y bajo",
+   "n": 4,
+   "clase": "Melodías, escalas y acordes",
+   "tip": "Mantén presionado un paso del secuenciador y gira la perilla de volumen para cambiar la velocity de esa nota.",
+   "curso": "dominamove",
+   "clip": {
+    "v": "mv-c04-velocity.mp4",
+    "p": "mv-c04-velocity.jpg",
+    "d": "0:38"
+   }
+  },
+  {
+   "cat": "Sonido y efectos",
+   "n": 5,
+   "clase": "Instrumentos y diseño de sonido",
+   "tip": "Sube el pitch envelope de tu kick: un barrido rápido de agudo a grave le da más golpe al ataque.",
+   "curso": "dominamove",
+   "clip": {
+    "v": "mv-c05-pitch-env.mp4",
+    "p": "mv-c05-pitch-env.jpg",
+    "d": "0:48"
+   }
+  },
+  {
+   "cat": "Sonido y efectos",
+   "n": 5,
+   "clase": "Instrumentos y diseño de sonido",
+   "tip": "Mantén Shift y gira la rueda para cambiar de banco: tienes a la mano los osciladores, filtros y modulación de Drift, igual que en Live.",
+   "curso": "dominamove",
+   "clip": {
+    "v": "mv-c05-bancos-drift.mp4",
+    "p": "mv-c05-bancos-drift.jpg",
+    "d": "1:08"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 6,
+   "clase": "Crear sin pensar demasiado: Capturar automatizaciones, Repeat y Arpeggiator",
+   "tip": "Cuando juegues con Repeat, graba más de lo que necesitas y luego elige en el tamaño del loop los compases que más te gustaron.",
+   "curso": "dominamove",
+   "clip": {
+    "v": "mv-c06-repeat.mp4",
+    "p": "mv-c06-repeat.jpg",
+    "d": "1:06"
+   }
+  },
+  {
+   "cat": "Grabación y audio",
+   "n": 7,
+   "clase": "Sampling: convertir el mundo en música",
+   "tip": "Conecta tu teléfono por USB-C y graba su audio directo en el Move, en una pista de audio o en un pad de la batería.",
+   "curso": "dominamove",
+   "clip": {
+    "v": "mv-c07-usb-c.mp4",
+    "p": "mv-c07-usb-c.jpg",
+    "d": "1:02"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 8,
+   "clase": "Slicing y manipulación de samples",
+   "tip": "Mantén Shift y presiona la rueda sobre un pad con sample: elige Slice y el Move lo reparte en rebanadas por toda la batería.",
+   "curso": "dominamove",
+   "clip": {
+    "v": "mv-c08-slice.mp4",
+    "p": "mv-c08-slice.jpg",
+    "d": "1:12"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 8,
+   "clase": "Slicing y manipulación de samples",
+   "tip": "Duplica un pad y con Shift + rueda aplícale Reverse: el mismo sample al revés se vuelve material para una idea nueva.",
+   "curso": "dominamove",
+   "clip": {
+    "v": "mv-c08-reverse.mp4",
+    "p": "mv-c08-reverse.jpg",
+    "d": "0:40"
+   }
+  },
+  {
+   "cat": "Grabación y audio",
+   "n": 9,
+   "clase": "Resampling y diseño creativo",
+   "tip": "Con Sampling puedes grabar en un pad todo lo que suena en el Move, y copiando un clip sobre un pad haces bounce de su audio al instante.",
+   "curso": "dominamove",
+   "clip": {
+    "v": "mv-c09-resampling.mp4",
+    "p": "mv-c09-resampling.jpg",
+    "d": "1:10"
+   }
+  },
+  {
+   "cat": "Sonido y efectos",
+   "n": 10,
+   "clase": "Efectos: espacio, textura y movimiento",
+   "tip": "Prueba el DJ filter para barrer graves o agudos con una sola perilla, y un poco de saturación para darle más pegada a cualquier sonido.",
+   "curso": "dominamove",
+   "clip": {
+    "v": "mv-c10-saturacion.mp4",
+    "p": "mv-c10-saturacion.jpg",
+    "d": "1:10"
+   }
+  },
+  {
+   "cat": "Arreglo y mezcla",
+   "n": 11,
+   "clase": "Automatización y dinámica",
+   "tip": "Duplica un clip y graba dentro una automatización distinta (por ejemplo, del delay): mismo contenido, otra sección de tu canción.",
+   "curso": "dominamove",
+   "clip": {
+    "v": "mv-c11-automatizar.mp4",
+    "p": "mv-c11-automatizar.jpg",
+    "d": "1:10"
+   }
+  },
+  {
+   "cat": "Primeros pasos",
+   "n": 13,
+   "clase": "Session view",
+   "tip": "Escribe move.local en tu navegador (con el Move por USB o en tu misma red Wi-Fi) para abrir Move Manager y subir o bajar tus sets.",
+   "curso": "dominamove",
+   "clip": {
+    "v": "mv-c13-move-manager.mp4",
+    "p": "mv-c13-move-manager.jpg",
+    "d": "1:02"
+   }
+  },
+  {
+   "cat": "Composición",
+   "n": 14,
+   "clase": "Arquitectura de una canción",
+   "tip": "Para avanzar en una canción tienes dos caminos: elaborar la idea (variarla, intensificarla) o cortar por lo sano y proponer un contraste.",
+   "curso": "dominamove",
+   "clip": {
+    "v": "mv-c14-elaborar-contrastar.mp4",
+    "p": "mv-c14-elaborar-contrastar.jpg",
+    "d": "1:02"
+   }
+  },
+  {
+   "cat": "Arreglo y mezcla",
+   "n": 15,
+   "clase": "Del loop a la estructura",
+   "tip": "Evita el arreglo de escalera (kick, luego kick y snare…): mete dos o tres elementos de golpe y luego quítalos para sorprender.",
+   "curso": "dominamove",
+   "clip": {
+    "v": "mv-c15-sorpresa.mp4",
+    "p": "mv-c15-sorpresa.jpg",
+    "d": "1:08"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 16,
+   "clase": "Arreglos en tiempo real",
+   "tip": "Mantén Shift y presiona Mute para solear un track: suelta y lanza la siguiente escena. Quitar y poner elementos también es tocar en vivo.",
+   "curso": "dominamove",
+   "clip": {
+    "v": "mv-c16-solo.mp4",
+    "p": "mv-c16-solo.jpg",
+    "d": "1:02"
+   }
+  },
+  {
+   "cat": "Arreglo y mezcla",
+   "n": 17,
+   "clase": "Mezcla desde Move",
+   "tip": "Escucha juntos los elementos que viven en el mismo rango de frecuencias, como el kick y el bajo: mutea lo demás y ajusta esos dos.",
+   "curso": "dominamove",
+   "clip": {
+    "v": "mv-c17-kick-bajo.mp4",
+    "p": "mv-c17-kick-bajo.jpg",
+    "d": "0:46"
+   }
+  },
+  {
+   "cat": "Beats y bajo",
+   "n": 18,
+   "clase": "Performance con Ableton Move",
+   "tip": "Mutea pads dentro del drum rack mientras suena el beat: la misma célula parece cambiar de sección y da sensación de desarrollo.",
+   "curso": "dominamove",
+   "clip": {
+    "v": "mv-c18-mute-pads.mp4",
+    "p": "mv-c18-mute-pads.jpg",
+    "d": "1:02"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 18,
+   "clase": "Performance con Ableton Move",
+   "tip": "Juega sin miedo con las perillas en vivo: si un cambio extremo no te gustó, presiona Deshacer y el parámetro vuelve a como estaba.",
+   "curso": "dominamove",
+   "clip": {
+    "v": "mv-c18-deshacer.mp4",
+    "p": "mv-c18-deshacer.jpg",
+    "d": "0:44"
+   }
+  },
+  {
+   "cat": "Primeros pasos",
+   "n": 20,
+   "clase": "Move + Ableton Live",
+   "tip": "Al abrir tu set del Move en Live, los cambios ya no regresan a la unidad. En Move Manager también puedes subir tus propios samples y organizarlos en carpetas.",
+   "curso": "dominamove",
+   "clip": {
+    "v": "mv-c20-move-a-live.mp4",
+    "p": "mv-c20-move-a-live.jpg",
+    "d": "1:08"
+   }
+  },
+  {
+   "cat": "Primeros pasos",
+   "n": 21,
+   "clase": "Move como controlador de Live",
+   "tip": "En Preferencias > Tempo y MIDI elige el Move como superficie de control, con Ableton Move Live Port en entrada y salida. El anillo rojo te dice que ya está listo.",
+   "curso": "dominamove",
+   "clip": {
+    "v": "mv-c21-controlador.mp4",
+    "p": "mv-c21-controlador.jpg",
+    "d": "0:56"
+   }
+  },
+  {
+   "cat": "Grabación y audio",
+   "n": 22,
+   "clase": "Move como interfaz de audio",
+   "tip": "El Move puede ser tu interfaz de audio: elígelo como entrada en Live y usa un buffer menor a 256 muestras para grabar en vivo sin latencia.",
+   "curso": "dominamove",
+   "clip": {
+    "v": "mv-c22-interfaz.mp4",
+    "p": "mv-c22-interfaz.jpg",
+    "d": "1:06"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 23,
+   "clase": "MIDI y hardware externo",
+   "tip": "Mantén Shift y toca la cabecera de un track para elegir su canal de MIDI Out: así el Move secuencia tu sintetizador externo. Revisa que el hardware escuche ese mismo canal.",
+   "curso": "dominamove",
+   "clip": {
+    "v": "mv-c23-midi-out.mp4",
+    "p": "mv-c23-midi-out.jpg",
+    "d": "1:02"
+   }
+  },
+  {
+   "cat": "Primeros pasos",
+   "n": 24,
+   "clase": "Move & Ableton Note",
+   "tip": "Con Ableton Cloud pasas proyectos entre tu Move, Note en el teléfono y Live; en Live lo encuentras en el navegador, en Places > Cloud.",
+   "curso": "dominamove",
+   "clip": {
+    "v": "mv-c24-cloud.mp4",
+    "p": "mv-c24-cloud.jpg",
+    "d": "1:02"
+   }
+  },
+  {
+   "cat": "Creatividad y atajos",
+   "n": 25,
+   "clase": "Jam Session: Move + Note",
+   "tip": "Activa Link en los ajustes del Move (en la misma red Wi-Fi) para sincronizar el tempo con Note u otra app y hacer una jam: cualquiera puede cambiar el tempo.",
+   "curso": "dominamove",
+   "clip": {
+    "v": "mv-c25-link.mp4",
+    "p": "mv-c25-link.jpg",
+    "d": "1:00"
    }
   }
  ],
